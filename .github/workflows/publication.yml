@@ -1,0 +1,70 @@
+# Construit le fichier HTML autonome et le publie sur GitHub Pages.
+name: Publication du site
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "src/**"
+      - "data/**"
+      - "scripts/**"
+      - "vendor/**"
+      - ".github/workflows/publication.yml"
+  # Un commit fait par GitHub Actions ne déclenche pas d'autre workflow :
+  # on enchaîne donc explicitement après la mise à jour des données.
+  workflow_run:
+    workflows: ["Mise à jour des données"]
+    types: [completed]
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: true
+
+jobs:
+  construire:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          ref: main             # dernier état, y compris un commit de données tout juste poussé
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: scripts/requirements.txt
+
+      - name: Dépendances
+        run: pip install -r scripts/requirements.txt
+
+      - name: Données communales
+        run: python scripts/build_data.py
+
+      - name: Contrôles de cohérence (bloquants)
+        run: python scripts/check_data.py
+
+      - name: Assemblage du fichier HTML
+        run: python scripts/build_site.py
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: dist
+
+  publier:
+    needs: construire
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploiement.outputs.page_url }}
+    steps:
+      - id: deploiement
+        uses: actions/deploy-pages@v4

@@ -1,0 +1,16 @@
+# Produit de construction : régénéré par GitHub Actions, jamais versionné
+dist/
+
+# Téléchargements bruts (volumineux, re-téléchargeables)
+data/raw/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Fichiers temporaires d'Excel et des systèmes
+~$*.xlsx
+.DS_Store
+Thumbs.db

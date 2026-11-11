@@ -1,0 +1,402 @@
+id_indicateur,thematique,sous_theme,libelle_indicateur,unite,maille_la_plus_fine,code_source,priorite,difficulte,ETAT
+I001,1. Population & démographie,Effectifs et évolution,Population municipale totale,nb d'habitants,Commune / IRIS / carreau 200 m,S01,1 – Socle,Facile,Disponible
+I002,1. Population & démographie,Effectifs et évolution,Population totale (municipale + comptée à part),nb d'habitants,Commune / IRIS / carreau 200 m,S01,1 – Socle,Facile,Disponible
+I003,1. Population & démographie,Effectifs et évolution,Évolution de la population depuis 1968,indice / %,Commune / IRIS / carreau 200 m,S01,1 – Socle,Facile,Non disponible
+I004,1. Population & démographie,Effectifs et évolution,Taux de variation annuel moyen (TVAM),%/an,Commune / IRIS / carreau 200 m,S01,1 – Socle,Facile,Non disponible
+I005,1. Population & démographie,Effectifs et évolution,Part du solde naturel dans la variation,%/an,Commune / IRIS / carreau 200 m,S01,1 – Socle,Facile,Non disponible
+I006,1. Population & démographie,Effectifs et évolution,Part du solde migratoire apparent,%/an,Commune / IRIS / carreau 200 m,S01,1 – Socle,Facile,Non disponible
+I007,1. Population & démographie,Effectifs et évolution,Densité de population,hab/km²,Commune / IRIS / carreau 200 m,S01,1 – Socle,Facile,Non disponible
+I008,1. Population & démographie,Effectifs et évolution,Population par commune,nb d'habitants,Commune / IRIS / carreau 200 m,S01,1 – Socle,Facile,Non disponible
+I009,1. Population & démographie,Structure par âge,Population par tranche d'âge,nb et %,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I010,1. Population & démographie,Structure par âge,Part des 65 ans et plus,%,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I011,1. Population & démographie,Structure par âge,Part des 80 ans et plus,%,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I012,1. Population & démographie,Structure par âge,Âge moyen et âge médian,années,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I013,1. Population & démographie,Structure par âge,Indice de jeunesse,ratio,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I014,1. Population & démographie,Structure par âge,Indice de vieillissement,ratio,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I015,1. Population & démographie,Structure par âge,Part des 15-29 ans,%,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I016,1. Population & démographie,Mouvement naturel,Naissances domiciliées,nb/an,Commune,S06,2 – Utile,Facile,Non disponible
+I017,1. Population & démographie,Mouvement naturel,Décès domiciliés,nb/an,Commune,S06,2 – Utile,Facile,Non disponible
+I018,1. Population & démographie,Mouvement naturel,Taux de natalité,‰,Commune,S06,2 – Utile,Facile,Non disponible
+I019,1. Population & démographie,Mouvement naturel,Taux de mortalité,‰,Commune,S06,2 – Utile,Facile,Non disponible
+I020,1. Population & démographie,Ménages,Nombre de ménages,nb,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I021,1. Population & démographie,Ménages,Taille moyenne des ménages,pers./ménage,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I022,1. Population & démographie,Ménages,Part des ménages d'une seule personne,%,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I023,1. Population & démographie,Ménages,Part des familles monoparentales,%,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I024,1. Population & démographie,Ménages,Personnes de 75 ans et + vivant seules,nb et %,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I025,1. Population & démographie,Ménages,Population hors ménages (communautés),nb,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I026,1. Population & démographie,Migrations résidentielles,Nouveaux arrivants sur 1 an,nb,Commune (origine/destination),S01,2 – Utile,Moyenne,Non disponible
+I027,1. Population & démographie,Migrations résidentielles,Origine géographique des arrivants,%,Commune (origine/destination),S01,2 – Utile,Moyenne,Non disponible
+I028,1. Population & démographie,Migrations résidentielles,Solde migratoire par tranche d'âge,nb,Commune (origine/destination),S01,2 – Utile,Moyenne,Non disponible
+I029,1. Population & démographie,Migrations résidentielles,Taux de rotation résidentielle,%,Commune (origine/destination),S01,2 – Utile,Moyenne,Non disponible
+I030,1. Population & démographie,Projections démographiques,Population projetée 2030 / 2040 / 2050,nb,EPCI (parfois zone d'étude),S02,1 – Socle,Moyenne,Non disponible
+I031,1. Population & démographie,Projections démographiques,Population projetée par tranche d'âge,nb et %,EPCI (parfois zone d'étude),S02,1 – Socle,Moyenne,Non disponible
+I032,1. Population & démographie,Projections démographiques,Nombre de ménages projeté,nb,EPCI (parfois zone d'étude),S02,1 – Socle,Moyenne,Non disponible
+I033,1. Population & démographie,Projections démographiques,Population active projetée,nb,EPCI (parfois zone d'étude),S02,1 – Socle,Moyenne,Non disponible
+I034,1. Population & démographie,Projections démographiques,Écart entre scénarios,nb / %,EPCI (parfois zone d'étude),S02,1 – Socle,Moyenne,Non disponible
+I035,1. Population & démographie,Population saisonnière et présente,Population présente estimée en haute saison,nb,EPCI / commune,S08,1 – Socle,Élevée,Non disponible
+I036,1. Population & démographie,Population saisonnière et présente,Ratio population présente / population municipale,ratio,EPCI / commune,S08,1 – Socle,Élevée,Non disponible
+I037,1. Population & démographie,Population saisonnière et présente,Population DGF,nb,EPCI / commune,S08,1 – Socle,Élevée,Non disponible
+I038,1. Population & démographie,Population saisonnière et présente,Courbe de saisonnalité mensuelle,%,EPCI / commune,S08,1 – Socle,Élevée,Non disponible
+I039,2. Logement & habitat,Structure du parc,Nombre total de logements,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I040,2. Logement & habitat,Structure du parc,Résidences principales,nb et %,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I041,2. Logement & habitat,Structure du parc,Résidences secondaires et logements occasionnels,nb et %,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I042,2. Logement & habitat,Structure du parc,Logements vacants,nb et %,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I043,2. Logement & habitat,Structure du parc,Part maisons / appartements,%,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I044,2. Logement & habitat,Structure du parc,Nombre moyen de pièces par logement,nb,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I045,2. Logement & habitat,Structure du parc,Époque d'achèvement du parc,%,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I046,2. Logement & habitat,Structure du parc,Statut d'occupation,%,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I047,2. Logement & habitat,Structure du parc,Logements suroccupés,nb et %,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I048,2. Logement & habitat,Logement social,Nombre de logements locatifs sociaux,nb,Commune,S19,2 – Utile,Moyenne,Non disponible
+I049,2. Logement & habitat,Logement social,Taux de logements sociaux,%,Commune,S19,2 – Utile,Moyenne,Non disponible
+I050,2. Logement & habitat,Logement social,Demandes de logement social en attente,nb,Commune,S19,2 – Utile,Moyenne,Non disponible
+I051,2. Logement & habitat,Logement social,Pression de la demande,ratio,Commune,S19,2 – Utile,Moyenne,Non disponible
+I052,2. Logement & habitat,Logement social,Loyer moyen du parc social,€/m²,Commune,S19,2 – Utile,Moyenne,Non disponible
+I053,2. Logement & habitat,Construction neuve,Logements autorisés,nb/an,Commune,S21,1 – Socle,Facile,Disponible
+I054,2. Logement & habitat,Construction neuve,Logements commencés,nb/an,Commune,S21,1 – Socle,Facile,Disponible
+I055,2. Logement & habitat,Construction neuve,Répartition individuel / collectif,%,Commune,S21,1 – Socle,Facile,Disponible
+I056,2. Logement & habitat,Construction neuve,Surface moyenne des logements neufs,m²,Commune,S21,1 – Socle,Facile,Disponible
+I057,2. Logement & habitat,Construction neuve,Locaux non résidentiels autorisés,m²/an,Commune,S21,1 – Socle,Facile,Disponible
+I058,2. Logement & habitat,Marché immobilier,Nombre de transactions annuelles,nb/an,Parcelle / commune,S22,1 – Socle,Moyenne,Non disponible
+I059,2. Logement & habitat,Marché immobilier,Prix médian au m² – maisons,€/m²,Parcelle / commune,S22,1 – Socle,Moyenne,Non disponible
+I060,2. Logement & habitat,Marché immobilier,Prix médian au m² – appartements,€/m²,Parcelle / commune,S22,1 – Socle,Moyenne,Non disponible
+I061,2. Logement & habitat,Marché immobilier,Évolution des prix sur 5 et 10 ans,%,Parcelle / commune,S22,1 – Socle,Moyenne,Non disponible
+I062,2. Logement & habitat,Marché immobilier,Prix des terrains à bâtir,€/m²,Parcelle / commune,S22,1 – Socle,Moyenne,Non disponible
+I063,2. Logement & habitat,Marché immobilier,Part des acquéreurs non résidents,%,Parcelle / commune,S22,1 – Socle,Moyenne,Non disponible
+I064,2. Logement & habitat,Vacance et parc dégradé,Logements vacants de plus de 2 ans,nb,Local / commune,S24,2 – Utile,Élevée,Non disponible
+I065,2. Logement & habitat,Vacance et parc dégradé,Taux de vacance de longue durée,%,Local / commune,S24,2 – Utile,Élevée,Non disponible
+I066,2. Logement & habitat,Vacance et parc dégradé,Logements potentiellement indignes,nb,Local / commune,S24,2 – Utile,Élevée,Non disponible
+I067,2. Logement & habitat,Vacance et parc dégradé,Locaux d'activité vacants,nb,Local / commune,S24,2 – Utile,Élevée,Non disponible
+I068,2. Logement & habitat,Performance énergétique,Répartition du parc par étiquette DPE,%,Adresse / commune,S32,2 – Utile,Moyenne,Non disponible
+I069,2. Logement & habitat,Performance énergétique,Nombre de passoires énergétiques (F-G),nb,Adresse / commune,S32,2 – Utile,Moyenne,Non disponible
+I070,2. Logement & habitat,Performance énergétique,Part des logements chauffés au fioul,%,Adresse / commune,S32,2 – Utile,Moyenne,Non disponible
+I071,2. Logement & habitat,Performance énergétique,Taux de précarité énergétique,%,Adresse / commune,S32,2 – Utile,Moyenne,Non disponible
+I072,2. Logement & habitat,Performance énergétique,Nombre de rénovations aidées,nb/an,Adresse / commune,S32,2 – Utile,Moyenne,Non disponible
+I073,3. Revenus & cohésion sociale,Niveau de vie,Revenu médian disponible par UC,€/an,Commune / IRIS / carreau,S03,1 – Socle,Facile,Disponible
+I074,3. Revenus & cohésion sociale,Niveau de vie,Rapport interdécile D9/D1,ratio,Commune / IRIS / carreau,S03,1 – Socle,Facile,Disponible
+I075,3. Revenus & cohésion sociale,Niveau de vie,Taux de pauvreté monétaire,%,Commune / IRIS / carreau,S03,1 – Socle,Facile,Disponible
+I076,3. Revenus & cohésion sociale,Niveau de vie,Taux de pauvreté des moins de 30 ans,%,Commune / IRIS / carreau,S03,1 – Socle,Facile,Disponible
+I077,3. Revenus & cohésion sociale,Niveau de vie,Taux de pauvreté des 65 ans et plus,%,Commune / IRIS / carreau,S03,1 – Socle,Facile,Non disponible
+I078,3. Revenus & cohésion sociale,Niveau de vie,Composition du revenu disponible,%,Commune / IRIS / carreau,S03,1 – Socle,Facile,Disponible
+I079,3. Revenus & cohésion sociale,Niveau de vie,Part des ménages fiscaux imposés,%,Commune / IRIS / carreau,S03,1 – Socle,Facile,Disponible
+I080,3. Revenus & cohésion sociale,Prestations et minima sociaux,Nombre d'allocataires CAF,nb,Commune / EPCI,S14,2 – Utile,Moyenne,Non disponible
+I081,3. Revenus & cohésion sociale,Prestations et minima sociaux,Population couverte par la CAF,nb et %,Commune / EPCI,S14,2 – Utile,Moyenne,Non disponible
+I082,3. Revenus & cohésion sociale,Prestations et minima sociaux,Bénéficiaires du RSA,nb,Commune / EPCI,S14,2 – Utile,Moyenne,Non disponible
+I083,3. Revenus & cohésion sociale,Prestations et minima sociaux,Bénéficiaires de l'AAH,nb,Commune / EPCI,S14,2 – Utile,Moyenne,Non disponible
+I084,3. Revenus & cohésion sociale,Prestations et minima sociaux,Bénéficiaires d'aides au logement,nb,Commune / EPCI,S14,2 – Utile,Moyenne,Non disponible
+I085,3. Revenus & cohésion sociale,Prestations et minima sociaux,Bénéficiaires de l'ASPA (minimum vieillesse),nb,Commune / EPCI,S14,2 – Utile,Moyenne,Non disponible
+I086,3. Revenus & cohésion sociale,Prestations et minima sociaux,Bénéficiaires de la C2S,nb,Commune / EPCI,S14,2 – Utile,Moyenne,Non disponible
+I087,3. Revenus & cohésion sociale,Vie locale et citoyenneté,Nombre d'associations actives,nb,Commune,S41,3 – Approfondissement,Facile,Non disponible
+I088,3. Revenus & cohésion sociale,Vie locale et citoyenneté,Créations d'associations par an,nb/an,Commune,S41,3 – Approfondissement,Facile,Non disponible
+I089,3. Revenus & cohésion sociale,Vie locale et citoyenneté,Taux de participation aux élections,%,Commune,S41,3 – Approfondissement,Facile,Non disponible
+I090,3. Revenus & cohésion sociale,Vie locale et citoyenneté,Taux de délinquance par catégorie,‰,Commune,S41,3 – Approfondissement,Facile,Non disponible
+I091,"4. Emploi, activité & chômage",Activité et emploi,Population active 15-64 ans,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I092,"4. Emploi, activité & chômage",Activité et emploi,Taux d'activité,%,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I093,"4. Emploi, activité & chômage",Activité et emploi,Taux d'emploi,%,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I094,"4. Emploi, activité & chômage",Activité et emploi,Taux d'activité des 55-64 ans,%,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I095,"4. Emploi, activité & chômage",Activité et emploi,Nombre d'emplois au lieu de travail,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I096,"4. Emploi, activité & chômage",Activité et emploi,Indicateur de concentration d'emploi,indice,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I097,"4. Emploi, activité & chômage",Activité et emploi,Taux de chômage au sens du RP,%,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I098,"4. Emploi, activité & chômage",Activité et emploi,Part des salariés en emploi précaire,%,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I099,"4. Emploi, activité & chômage",Activité et emploi,Part du temps partiel,%,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I100,"4. Emploi, activité & chômage",Activité et emploi,Emplois par secteur d'activité,nb et %,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I101,"4. Emploi, activité & chômage",Activité et emploi,Emplois par catégorie socioprofessionnelle,%,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I102,"4. Emploi, activité & chômage",Activité et emploi,Niveau de diplôme de la population non scolarisée,%,Commune / IRIS,S01,1 – Socle,Facile,Non disponible
+I103,"4. Emploi, activité & chômage",Demande d'emploi,Demandeurs d'emploi catégorie A,nb,Commune / EPCI / zone d'emploi,S10,1 – Socle,Facile,Non disponible
+I104,"4. Emploi, activité & chômage",Demande d'emploi,"Demandeurs d'emploi catégories A, B, C",nb,Commune / EPCI / zone d'emploi,S10,1 – Socle,Facile,Non disponible
+I105,"4. Emploi, activité & chômage",Demande d'emploi,Part des chômeurs de longue durée,%,Commune / EPCI / zone d'emploi,S10,1 – Socle,Facile,Non disponible
+I106,"4. Emploi, activité & chômage",Demande d'emploi,Part des demandeurs de moins de 25 ans,%,Commune / EPCI / zone d'emploi,S10,1 – Socle,Facile,Non disponible
+I107,"4. Emploi, activité & chômage",Demande d'emploi,Part des demandeurs de 50 ans et plus,%,Commune / EPCI / zone d'emploi,S10,1 – Socle,Facile,Non disponible
+I108,"4. Emploi, activité & chômage",Demande d'emploi,Saisonnalité de la demande d'emploi,%,Commune / EPCI / zone d'emploi,S10,1 – Socle,Facile,Non disponible
+I109,"4. Emploi, activité & chômage",Demande d'emploi,Taux de chômage localisé,%,Commune / EPCI / zone d'emploi,S53,1 – Socle,Facile,Non disponible
+I110,"4. Emploi, activité & chômage",Emploi salarié et tensions,Effectifs salariés du secteur privé,nb,EPCI / zone d'emploi,S11,2 – Utile,Facile,Non disponible
+I111,"4. Emploi, activité & chômage",Emploi salarié et tensions,Masse salariale privée,€,EPCI / zone d'emploi,S11,2 – Utile,Facile,Non disponible
+I112,"4. Emploi, activité & chômage",Emploi salarié et tensions,Évolution trimestrielle de l'emploi salarié,%,EPCI / zone d'emploi,S11,2 – Utile,Facile,Non disponible
+I113,"4. Emploi, activité & chômage",Emploi salarié et tensions,Projets de recrutement (enquête BMO),nb/an,EPCI / zone d'emploi,S11,2 – Utile,Facile,Non disponible
+I114,"4. Emploi, activité & chômage",Emploi salarié et tensions,Métiers en tension,liste / %,EPCI / zone d'emploi,S11,2 – Utile,Facile,Non disponible
+I115,"4. Emploi, activité & chômage",Emploi salarié et tensions,Part des projets de recrutement saisonniers,%,EPCI / zone d'emploi,S11,2 – Utile,Facile,Non disponible
+I116,5. Tissu économique & entreprises,Structure du tissu,Nombre d'établissements actifs,nb,Établissement géolocalisé,S05,1 – Socle,Moyenne,Non disponible
+I117,5. Tissu économique & entreprises,Structure du tissu,Nombre d'établissements employeurs,nb,Établissement géolocalisé,S05,1 – Socle,Moyenne,Non disponible
+I118,5. Tissu économique & entreprises,Structure du tissu,Répartition par secteur d'activité,nb et %,Établissement géolocalisé,S05,1 – Socle,Moyenne,Non disponible
+I119,5. Tissu économique & entreprises,Structure du tissu,Répartition par taille d'établissement,nb et %,Établissement géolocalisé,S05,1 – Socle,Moyenne,Non disponible
+I120,5. Tissu économique & entreprises,Structure du tissu,Densité entrepreneuriale,ratio,Établissement géolocalisé,S05,1 – Socle,Moyenne,Non disponible
+I121,5. Tissu économique & entreprises,Structure du tissu,Principaux employeurs,liste,Établissement géolocalisé,S05,1 – Socle,Moyenne,Non disponible
+I122,5. Tissu économique & entreprises,Structure du tissu,Effectifs salariés par secteur,nb,Établissement géolocalisé,S05,1 – Socle,Moyenne,Non disponible
+I123,5. Tissu économique & entreprises,Dynamique entrepreneuriale,Créations d'entreprises,nb/an,EPCI / département,S05,2 – Utile,Facile,Non disponible
+I124,5. Tissu économique & entreprises,Dynamique entrepreneuriale,Part des créations en micro-entreprise,%,EPCI / département,S05,2 – Utile,Facile,Non disponible
+I125,5. Tissu économique & entreprises,Dynamique entrepreneuriale,Taux de création d'entreprises,%,EPCI / département,S05,2 – Utile,Facile,Non disponible
+I126,5. Tissu économique & entreprises,Dynamique entrepreneuriale,Cessations et défaillances,nb/an,EPCI / département,S05,2 – Utile,Facile,Non disponible
+I127,5. Tissu économique & entreprises,Dynamique entrepreneuriale,Taux de survie à 3 ans,%,EPCI / département,S05,2 – Utile,Facile,Non disponible
+I128,5. Tissu économique & entreprises,Dynamique entrepreneuriale,Âge des dirigeants d'entreprise,%,EPCI / département,S05,2 – Utile,Facile,Non disponible
+I129,5. Tissu économique & entreprises,Commerce et zones d'activité,Nombre de commerces de proximité,nb,Équipement géolocalisé,S04,1 – Socle,Facile,Non disponible
+I130,5. Tissu économique & entreprises,Commerce et zones d'activité,Communes sans commerce alimentaire,nb,Équipement géolocalisé,S04,1 – Socle,Facile,Non disponible
+I131,5. Tissu économique & entreprises,Commerce et zones d'activité,Évolution du nombre de commerces,%,Équipement géolocalisé,S04,1 – Socle,Facile,Non disponible
+I132,5. Tissu économique & entreprises,Commerce et zones d'activité,Taux de vacance commerciale des centres-bourgs,%,Équipement géolocalisé,S04,1 – Socle,Facile,Non disponible
+I133,5. Tissu économique & entreprises,Commerce et zones d'activité,Nombre et surface des zones d'activité,nb / ha / %,Équipement géolocalisé,S04,1 – Socle,Facile,Non disponible
+I134,5. Tissu économique & entreprises,Commerce et zones d'activité,Surface commerciale par habitant,m²/hab,Équipement géolocalisé,S04,1 – Socle,Facile,Non disponible
+I135,5. Tissu économique & entreprises,Agriculture,Nombre d'exploitations agricoles,nb,Commune / EPCI,S45,2 – Utile,Moyenne,Non disponible
+I136,5. Tissu économique & entreprises,Agriculture,Surface agricole utile (SAU),ha,Commune / EPCI,S45,2 – Utile,Moyenne,Non disponible
+I137,5. Tissu économique & entreprises,Agriculture,SAU moyenne par exploitation,ha,Commune / EPCI,S45,2 – Utile,Moyenne,Non disponible
+I138,5. Tissu économique & entreprises,Agriculture,Orientation technico-économique dominante,libellé,Commune / EPCI,S45,2 – Utile,Moyenne,Non disponible
+I139,5. Tissu économique & entreprises,Agriculture,Âge des exploitants,%,Commune / EPCI,S45,2 – Utile,Moyenne,Non disponible
+I140,5. Tissu économique & entreprises,Agriculture,Part de la SAU en agriculture biologique,%,Commune / EPCI,S45,2 – Utile,Moyenne,Non disponible
+I141,5. Tissu économique & entreprises,Agriculture,Emplois agricoles (ETP),UTA,Commune / EPCI,S45,2 – Utile,Moyenne,Non disponible
+I142,6. Éducation & enfance,Établissements et effectifs 1er degré,Nombre d'écoles maternelles et élémentaires,nb,Établissement / commune,S12,1 – Socle,Facile,Non disponible
+I143,6. Éducation & enfance,Établissements et effectifs 1er degré,Effectifs d'élèves du 1er degré,nb,Établissement / commune,S12,1 – Socle,Facile,Non disponible
+I144,6. Éducation & enfance,Établissements et effectifs 1er degré,Effectifs par école,nb,Établissement / commune,S12,1 – Socle,Facile,Non disponible
+I145,6. Éducation & enfance,Établissements et effectifs 1er degré,Évolution des effectifs sur 5 et 10 ans,%,Établissement / commune,S12,1 – Socle,Facile,Non disponible
+I146,6. Éducation & enfance,Établissements et effectifs 1er degré,Nombre de classes et taille moyenne,nb,Établissement / commune,S12,1 – Socle,Facile,Non disponible
+I147,6. Éducation & enfance,Établissements et effectifs 1er degré,Nombre de RPI / regroupements,nb,Établissement / commune,S12,1 – Socle,Facile,Non disponible
+I148,6. Éducation & enfance,Second degré et au-delà,Nombre de collèges et effectifs,nb,Établissement,S12,2 – Utile,Facile,Non disponible
+I149,6. Éducation & enfance,Second degré et au-delà,Nombre de lycées et effectifs,nb,Établissement,S12,2 – Utile,Facile,Non disponible
+I150,6. Éducation & enfance,Second degré et au-delà,Indice de position sociale (IPS),indice,Établissement,S12,2 – Utile,Facile,Non disponible
+I151,6. Éducation & enfance,Second degré et au-delà,Taux de réussite au DNB / au bac,%,Établissement,S12,2 – Utile,Facile,Non disponible
+I152,6. Éducation & enfance,Second degré et au-delà,Élèves scolarisés hors du territoire,nb et %,Établissement,S12,2 – Utile,Facile,Non disponible
+I153,6. Éducation & enfance,Second degré et au-delà,Nombre d'apprentis,nb,Établissement,S12,2 – Utile,Facile,Non disponible
+I154,6. Éducation & enfance,Second degré et au-delà,Taux de scolarisation des 18-24 ans,%,Établissement,S12,2 – Utile,Facile,Non disponible
+I155,6. Éducation & enfance,Petite enfance,Nombre d'enfants de moins de 3 ans,nb,Commune / EPCI,S14,1 – Socle,Moyenne,Non disponible
+I156,6. Éducation & enfance,Petite enfance,Places en accueil collectif,nb,Commune / EPCI,S14,1 – Socle,Moyenne,Non disponible
+I157,6. Éducation & enfance,Petite enfance,Nombre d'assistantes maternelles agréées,nb,Commune / EPCI,S14,1 – Socle,Moyenne,Non disponible
+I158,6. Éducation & enfance,Petite enfance,Taux de couverture petite enfance,%,Commune / EPCI,S14,1 – Socle,Moyenne,Non disponible
+I159,6. Éducation & enfance,Petite enfance,Nombre de MAM,nb,Commune / EPCI,S14,1 – Socle,Moyenne,Non disponible
+I160,6. Éducation & enfance,Petite enfance,Fréquentation des ALSH et accueils périscolaires,nb,Commune / EPCI,S14,1 – Socle,Moyenne,Non disponible
+I161,7. Santé & médico-social,Offre de soins de premier recours,Nombre de médecins généralistes libéraux,nb,Commune / bassin de vie,S15,1 – Socle,Moyenne,Non disponible
+I162,7. Santé & médico-social,Offre de soins de premier recours,Densité de médecins généralistes,ratio,Commune / bassin de vie,S15,1 – Socle,Moyenne,Non disponible
+I163,7. Santé & médico-social,Offre de soins de premier recours,Âge moyen des généralistes,%,Commune / bassin de vie,S15,1 – Socle,Moyenne,Non disponible
+I164,7. Santé & médico-social,Offre de soins de premier recours,APL aux médecins généralistes,consult./hab/an,Commune / bassin de vie,S15,1 – Socle,Moyenne,Non disponible
+I165,7. Santé & médico-social,Offre de soins de premier recours,Nombre de chirurgiens-dentistes,nb,Commune / bassin de vie,S15,1 – Socle,Moyenne,Non disponible
+I166,7. Santé & médico-social,Offre de soins de premier recours,Nombre d'infirmiers libéraux,nb,Commune / bassin de vie,S15,1 – Socle,Moyenne,Non disponible
+I167,7. Santé & médico-social,Offre de soins de premier recours,Nombre de masseurs-kinésithérapeutes,nb,Commune / bassin de vie,S15,1 – Socle,Moyenne,Non disponible
+I168,7. Santé & médico-social,Offre de soins de premier recours,Nombre de pharmacies,nb,Commune / bassin de vie,S15,1 – Socle,Moyenne,Non disponible
+I169,7. Santé & médico-social,Offre de soins de premier recours,Nombre de sages-femmes,nb,Commune / bassin de vie,S15,1 – Socle,Moyenne,Non disponible
+I170,7. Santé & médico-social,Offre de soins de premier recours,Communes en zone d'intervention prioritaire,nb,Commune / bassin de vie,S15,1 – Socle,Moyenne,Non disponible
+I171,7. Santé & médico-social,Offre de soins de premier recours,Nombre de MSP et centres de santé,nb,Commune / bassin de vie,S15,1 – Socle,Moyenne,Non disponible
+I172,7. Santé & médico-social,Grand âge et handicap,Nombre de places en EHPAD,nb,Établissement,S16,1 – Socle,Moyenne,Non disponible
+I173,7. Santé & médico-social,Grand âge et handicap,Taux d'équipement en EHPAD,‰,Établissement,S16,1 – Socle,Moyenne,Non disponible
+I174,7. Santé & médico-social,Grand âge et handicap,Places en résidence autonomie,nb,Établissement,S16,1 – Socle,Moyenne,Non disponible
+I175,7. Santé & médico-social,Grand âge et handicap,Places en accueil de jour / hébergement temporaire,nb,Établissement,S16,1 – Socle,Moyenne,Non disponible
+I176,7. Santé & médico-social,Grand âge et handicap,Nombre de places SSIAD,nb,Établissement,S16,1 – Socle,Moyenne,Non disponible
+I177,7. Santé & médico-social,Grand âge et handicap,Nombre de services d'aide à domicile (SAAD),nb,Établissement,S16,1 – Socle,Moyenne,Non disponible
+I178,7. Santé & médico-social,Grand âge et handicap,Bénéficiaires de l'APA,nb,Établissement,S16,1 – Socle,Moyenne,Non disponible
+I179,7. Santé & médico-social,Grand âge et handicap,Places en établissements pour personnes handicapées,nb,Établissement,S16,1 – Socle,Moyenne,Non disponible
+I180,7. Santé & médico-social,Grand âge et handicap,Bénéficiaires de la PCH,nb,Établissement,S16,1 – Socle,Moyenne,Non disponible
+I181,7. Santé & médico-social,État de santé de la population,Prévalence des affections de longue durée,%,Département / parfois EPCI,S17,3 – Approfondissement,Élevée,Non disponible
+I182,7. Santé & médico-social,État de santé de la population,"Prévalence du diabète, des maladies cardio-vasculaires",nb et %,Département / parfois EPCI,S17,3 – Approfondissement,Élevée,Non disponible
+I183,7. Santé & médico-social,État de santé de la population,Taux de recours aux urgences,ratio,Département / parfois EPCI,S17,3 – Approfondissement,Élevée,Non disponible
+I184,7. Santé & médico-social,État de santé de la population,Temps d'accès au service d'urgence le plus proche,minutes,Département / parfois EPCI,S17,3 – Approfondissement,Élevée,Non disponible
+I185,7. Santé & médico-social,État de santé de la population,Espérance de vie à la naissance,années,Département / parfois EPCI,S06,3 – Approfondissement,Élevée,Non disponible
+I186,8. Tourisme & attractivité,Capacité d'accueil,Nombre d'hôtels et de chambres,nb,Commune / EPCI,S07,1 – Socle,Facile,Non disponible
+I187,8. Tourisme & attractivité,Capacité d'accueil,Nombre de campings et d'emplacements,nb,Commune / EPCI,S07,1 – Socle,Facile,Non disponible
+I188,8. Tourisme & attractivité,Capacité d'accueil,Autres hébergements collectifs,nb,Commune / EPCI,S07,1 – Socle,Facile,Non disponible
+I189,8. Tourisme & attractivité,Capacité d'accueil,Nombre de meublés de tourisme,nb,Commune / EPCI,S07,1 – Socle,Facile,Non disponible
+I190,8. Tourisme & attractivité,Capacité d'accueil,Nombre de chambres d'hôtes,nb,Commune / EPCI,S07,1 – Socle,Facile,Non disponible
+I191,8. Tourisme & attractivité,Capacité d'accueil,Capacité d'accueil totale en lits touristiques,nb de lits,Commune / EPCI,S07,1 – Socle,Facile,Non disponible
+I192,8. Tourisme & attractivité,Capacité d'accueil,Ratio lits touristiques / habitants,ratio,Commune / EPCI,S07,1 – Socle,Facile,Non disponible
+I193,8. Tourisme & attractivité,Fréquentation,Nombre de nuitées annuelles,nb,EPCI / département,S49,2 – Utile,Moyenne,Non disponible
+I194,8. Tourisme & attractivité,Fréquentation,Taux d'occupation hôtelier et camping,%,EPCI / département,S49,2 – Utile,Moyenne,Non disponible
+I195,8. Tourisme & attractivité,Fréquentation,Durée moyenne de séjour,nuits,EPCI / département,S49,2 – Utile,Moyenne,Non disponible
+I196,8. Tourisme & attractivité,Fréquentation,Part de clientèle étrangère,%,EPCI / département,S49,2 – Utile,Moyenne,Non disponible
+I197,8. Tourisme & attractivité,Fréquentation,Répartition mensuelle de la fréquentation,%,EPCI / département,S49,2 – Utile,Moyenne,Non disponible
+I198,8. Tourisme & attractivité,Fréquentation,Recettes de taxe de séjour,€/an,EPCI / département,S49,2 – Utile,Moyenne,Non disponible
+I199,8. Tourisme & attractivité,Fréquentation,Fréquentation des sites et équipements touristiques,nb,EPCI / département,S49,2 – Utile,Moyenne,Non disponible
+I200,8. Tourisme & attractivité,Fréquentation,Fréquentation des véloroutes,nb/an,EPCI / département,S49,2 – Utile,Moyenne,Non disponible
+I201,8. Tourisme & attractivité,Économie touristique,Nombre d'établissements du secteur HCR,nb,Établissement / EPCI,S05,2 – Utile,Moyenne,Non disponible
+I202,8. Tourisme & attractivité,Économie touristique,Emplois liés au tourisme,nb et %,Établissement / EPCI,S05,2 – Utile,Moyenne,Non disponible
+I203,8. Tourisme & attractivité,Économie touristique,Saisonnalité de l'emploi touristique,%,Établissement / EPCI,S05,2 – Utile,Moyenne,Non disponible
+I204,8. Tourisme & attractivité,Économie touristique,Nombre de ports de plaisance et d'anneaux,nb,Établissement / EPCI,S79,2 – Utile,Moyenne,Non disponible
+I205,8. Tourisme & attractivité,Économie touristique,Nombre de communes classées,nb,Établissement / EPCI,S05,2 – Utile,Moyenne,Non disponible
+I206,8. Tourisme & attractivité,Économie touristique,Aires d'accueil de camping-cars,nb,Établissement / EPCI,S05,2 – Utile,Moyenne,Non disponible
+I207,9. Équipements & services,Niveau d'équipement,Nombre total d'équipements,nb,Équipement géolocalisé,S04,1 – Socle,Facile,Non disponible
+I208,9. Équipements & services,Niveau d'équipement,Équipements par gamme,nb,Équipement géolocalisé,S04,1 – Socle,Facile,Non disponible
+I209,9. Équipements & services,Niveau d'équipement,Taux d'équipement communal,ratio,Équipement géolocalisé,S04,1 – Socle,Facile,Non disponible
+I210,9. Équipements & services,Niveau d'équipement,Temps d'accès moyen à la gamme intermédiaire,minutes,Équipement géolocalisé,S04,1 – Socle,Facile,Non disponible
+I211,9. Équipements & services,Niveau d'équipement,Nombre de communes sans aucun équipement de proximité,nb,Équipement géolocalisé,S04,1 – Socle,Facile,Non disponible
+I212,9. Équipements & services,Niveau d'équipement,Nombre d'équipements sportifs,nb,Équipement géolocalisé,S40,1 – Socle,Facile,Non disponible
+I213,9. Équipements & services,Niveau d'équipement,Nombre d'équipements culturels,nb,Équipement géolocalisé,S04,1 – Socle,Facile,Non disponible
+I214,9. Équipements & services,Niveau d'équipement,Nombre de services publics de proximité,nb,Équipement géolocalisé,S04,1 – Socle,Facile,Non disponible
+I215,9. Équipements & services,Numérique,Taux de locaux éligibles à la fibre,%,Adresse / commune,S39,2 – Utile,Facile,Non disponible
+I216,9. Équipements & services,Numérique,Taux de raccordement effectif,%,Adresse / commune,S39,2 – Utile,Facile,Non disponible
+I217,9. Équipements & services,Numérique,Couverture mobile 4G / 5G,%,Adresse / commune,S39,2 – Utile,Facile,Non disponible
+I218,9. Équipements & services,Numérique,Nombre de tiers-lieux et espaces de coworking,nb,Adresse / commune,S39,2 – Utile,Facile,Non disponible
+I219,10. Mobilités & déplacements,Navettes domicile-travail,Part des actifs travaillant dans leur commune,%,Flux commune à commune,S01,1 – Socle,Moyenne,Non disponible
+I220,10. Mobilités & déplacements,Navettes domicile-travail,Part travaillant dans une autre commune de l'EPCI,%,Flux commune à commune,S01,1 – Socle,Moyenne,Non disponible
+I221,10. Mobilités & déplacements,Navettes domicile-travail,Part travaillant hors de l'EPCI,%,Flux commune à commune,S01,1 – Socle,Moyenne,Non disponible
+I222,10. Mobilités & déplacements,Navettes domicile-travail,Principaux flux sortants,nb,Flux commune à commune,S01,1 – Socle,Moyenne,Non disponible
+I223,10. Mobilités & déplacements,Navettes domicile-travail,Principaux flux entrants,nb,Flux commune à commune,S01,1 – Socle,Moyenne,Non disponible
+I224,10. Mobilités & déplacements,Navettes domicile-travail,Distance médiane domicile-travail,km,Flux commune à commune,S01,1 – Socle,Moyenne,Non disponible
+I225,10. Mobilités & déplacements,Navettes domicile-travail,Répartition modale des déplacements domicile-travail,%,Flux commune à commune,S01,1 – Socle,Moyenne,Non disponible
+I226,10. Mobilités & déplacements,Équipement et offre de transport,Taux de motorisation des ménages,%,Commune / arrêt,S37,2 – Utile,Moyenne,Non disponible
+I227,10. Mobilités & déplacements,Équipement et offre de transport,Part des ménages multimotorisés,%,Commune / arrêt,S37,2 – Utile,Moyenne,Non disponible
+I228,10. Mobilités & déplacements,Équipement et offre de transport,Nombre de ménages sans voiture,nb,Commune / arrêt,S37,2 – Utile,Moyenne,Non disponible
+I229,10. Mobilités & déplacements,Équipement et offre de transport,Nombre de lignes et d'arrêts de transport collectif,nb,Commune / arrêt,S37,2 – Utile,Moyenne,Non disponible
+I230,10. Mobilités & déplacements,Équipement et offre de transport,Niveau de service des lignes,nb,Commune / arrêt,S37,2 – Utile,Moyenne,Non disponible
+I231,10. Mobilités & déplacements,Équipement et offre de transport,Fréquentation des gares du territoire,nb/an,Commune / arrêt,S37,2 – Utile,Moyenne,Non disponible
+I232,10. Mobilités & déplacements,Équipement et offre de transport,Nombre de bornes de recharge électrique,nb,Commune / arrêt,S37,2 – Utile,Moyenne,Non disponible
+I233,10. Mobilités & déplacements,Équipement et offre de transport,Part des véhicules électriques et hybrides,%,Commune / arrêt,S37,2 – Utile,Moyenne,Non disponible
+I234,10. Mobilités & déplacements,Équipement et offre de transport,Âge moyen du parc automobile,années,Commune / arrêt,S37,2 – Utile,Moyenne,Non disponible
+I235,10. Mobilités & déplacements,Équipement et offre de transport,Kilomètres d'aménagements cyclables,km,Commune / arrêt,S37,2 – Utile,Moyenne,Non disponible
+I236,10. Mobilités & déplacements,Équipement et offre de transport,Nombre d'accidents corporels de la circulation,nb/an,Commune / arrêt,S37,2 – Utile,Moyenne,Non disponible
+I237,"11. Foncier, urbanisme & artificialisation",Occupation du sol,Superficie totale du territoire,km²,Polygone fin,S28,2 – Utile,Moyenne,Non disponible
+I238,"11. Foncier, urbanisme & artificialisation",Occupation du sol,Répartition de l'occupation du sol,ha et %,Polygone fin,S28,2 – Utile,Moyenne,Non disponible
+I239,"11. Foncier, urbanisme & artificialisation",Occupation du sol,Part du territoire artificialisé,%,Polygone fin,S28,2 – Utile,Moyenne,Non disponible
+I240,"11. Foncier, urbanisme & artificialisation",Occupation du sol,Surfaces boisées et haies,ha / km de haies,Polygone fin,S28,2 – Utile,Moyenne,Non disponible
+I241,"11. Foncier, urbanisme & artificialisation",Occupation du sol,Surfaces en zones humides,ha,Polygone fin,S28,2 – Utile,Moyenne,Non disponible
+I242,"11. Foncier, urbanisme & artificialisation",Consommation d'espace / ZAN,Consommation annuelle d'ENAF,ha/an,Commune,S26,1 – Socle,Facile,Non disponible
+I243,"11. Foncier, urbanisme & artificialisation",Consommation d'espace / ZAN,Consommation d'ENAF par destination,ha/an,Commune,S26,1 – Socle,Facile,Non disponible
+I244,"11. Foncier, urbanisme & artificialisation",Consommation d'espace / ZAN,Consommation cumulée sur 10 ans,ha,Commune,S26,1 – Socle,Facile,Non disponible
+I245,"11. Foncier, urbanisme & artificialisation",Consommation d'espace / ZAN,Efficacité foncière,log./ha,Commune,S26,1 – Socle,Facile,Non disponible
+I246,"11. Foncier, urbanisme & artificialisation",Consommation d'espace / ZAN,Consommation d'espace par habitant supplémentaire,m²/hab,Commune,S26,1 – Socle,Facile,Non disponible
+I247,"11. Foncier, urbanisme & artificialisation",Documents d'urbanisme et gisements,Couverture en documents d'urbanisme,nb,Zonage / parcelle,S27,1 – Socle,Moyenne,Non disponible
+I248,"11. Foncier, urbanisme & artificialisation",Documents d'urbanisme et gisements,Surfaces en zones U et AU,ha,Zonage / parcelle,S27,1 – Socle,Moyenne,Non disponible
+I249,"11. Foncier, urbanisme & artificialisation",Documents d'urbanisme et gisements,Potentiel de densification,ha / nb de logements,Zonage / parcelle,S27,1 – Socle,Moyenne,Non disponible
+I250,"11. Foncier, urbanisme & artificialisation",Documents d'urbanisme et gisements,Nombre et surface des friches,nb / ha,Zonage / parcelle,S27,1 – Socle,Moyenne,Non disponible
+I251,"11. Foncier, urbanisme & artificialisation",Documents d'urbanisme et gisements,Foncier public mobilisable,ha,Zonage / parcelle,S27,1 – Socle,Moyenne,Non disponible
+I252,"11. Foncier, urbanisme & artificialisation",Documents d'urbanisme et gisements,Nombre de permis de construire délivrés,nb/an,Zonage / parcelle,S27,1 – Socle,Moyenne,Non disponible
+I253,"12. Environnement, risques & climat",Risques naturels,Communes couvertes par un PPR,nb,Commune / zonage réglementaire,S29,1 – Socle,Facile,Non disponible
+I254,"12. Environnement, risques & climat",Risques naturels,Population en zone inondable,nb et %,Commune / zonage réglementaire,S29,1 – Socle,Facile,Non disponible
+I255,"12. Environnement, risques & climat",Risques naturels,Logements en zone inondable,nb,Commune / zonage réglementaire,S29,1 – Socle,Facile,Non disponible
+I256,"12. Environnement, risques & climat",Risques naturels,Population exposée à la submersion marine,nb,Commune / zonage réglementaire,S29,1 – Socle,Facile,Non disponible
+I257,"12. Environnement, risques & climat",Risques naturels,Communes concernées par le retrait-gonflement des argiles,nb,Commune / zonage réglementaire,S29,1 – Socle,Facile,Non disponible
+I258,"12. Environnement, risques & climat",Risques naturels,Nombre d'arrêtés de catastrophe naturelle,nb,Commune / zonage réglementaire,S29,1 – Socle,Facile,Non disponible
+I259,"12. Environnement, risques & climat",Risques naturels,Sites et sols pollués,nb,Commune / zonage réglementaire,S29,1 – Socle,Facile,Non disponible
+I260,"12. Environnement, risques & climat",Risques naturels,Nombre d'ICPE et de sites Seveso,nb,Commune / zonage réglementaire,S29,1 – Socle,Facile,Non disponible
+I261,"12. Environnement, risques & climat",Littoral et trait de côte,Linéaire de côte en recul,km et %,Linéaire côtier,S30,1 – Socle,Moyenne,Non disponible
+I262,"12. Environnement, risques & climat",Littoral et trait de côte,Taux de recul annuel moyen,m/an,Linéaire côtier,S30,1 – Socle,Moyenne,Non disponible
+I263,"12. Environnement, risques & climat",Littoral et trait de côte,Bâtiments menacés à horizon 30 ans,nb,Linéaire côtier,S30,1 – Socle,Moyenne,Non disponible
+I264,"12. Environnement, risques & climat",Littoral et trait de côte,Bâtiments menacés à horizon 100 ans,nb,Linéaire côtier,S30,1 – Socle,Moyenne,Non disponible
+I265,"12. Environnement, risques & climat",Littoral et trait de côte,Linéaire d'ouvrages de protection,km,Linéaire côtier,S30,1 – Socle,Moyenne,Non disponible
+I266,"12. Environnement, risques & climat",Climat futur,Température moyenne annuelle projetée,°C,Maille ~8-12 km,S31,2 – Utile,Élevée,Non disponible
+I267,"12. Environnement, risques & climat",Climat futur,Nombre de jours de forte chaleur,nb/an,Maille ~8-12 km,S31,2 – Utile,Élevée,Non disponible
+I268,"12. Environnement, risques & climat",Climat futur,Évolution des précipitations,mm,Maille ~8-12 km,S31,2 – Utile,Élevée,Non disponible
+I269,"12. Environnement, risques & climat",Climat futur,Nombre de jours de sécheresse,nb/an,Maille ~8-12 km,S31,2 – Utile,Élevée,Non disponible
+I270,"12. Environnement, risques & climat",Climat futur,Évolution du niveau de la mer,cm,Maille ~8-12 km,S31,2 – Utile,Élevée,Non disponible
+I271,"12. Environnement, risques & climat",Eau et milieux,Volumes d'eau prélevés,m³/an,Masse d'eau / point de prélèvement,S52,2 – Utile,Moyenne,Non disponible
+I272,"12. Environnement, risques & climat",Eau et milieux,Consommation d'eau potable par habitant,L/hab/jour,Masse d'eau / point de prélèvement,S52,2 – Utile,Moyenne,Non disponible
+I273,"12. Environnement, risques & climat",Eau et milieux,Rendement des réseaux d'eau potable,%,Masse d'eau / point de prélèvement,S52,2 – Utile,Moyenne,Non disponible
+I274,"12. Environnement, risques & climat",Eau et milieux,État écologique des masses d'eau,classe,Masse d'eau / point de prélèvement,S52,2 – Utile,Moyenne,Non disponible
+I275,"12. Environnement, risques & climat",Eau et milieux,Qualité des eaux de baignade,classe,Masse d'eau / point de prélèvement,S52,2 – Utile,Moyenne,Non disponible
+I276,"12. Environnement, risques & climat",Eau et milieux,Capacité et conformité des STEP,EH / %,Masse d'eau / point de prélèvement,S52,2 – Utile,Moyenne,Non disponible
+I277,"12. Environnement, risques & climat",Eau et milieux,Surfaces en zones protégées,ha et %,Masse d'eau / point de prélèvement,S61,2 – Utile,Moyenne,Non disponible
+I278,"12. Environnement, risques & climat",Énergie et émissions,Consommation d'énergie finale par secteur,GWh/an,EPCI / commune,S34,2 – Utile,Moyenne,Non disponible
+I279,"12. Environnement, risques & climat",Énergie et émissions,Émissions de GES territoriales,tCO2e/an,EPCI / commune,S34,2 – Utile,Moyenne,Non disponible
+I280,"12. Environnement, risques & climat",Énergie et émissions,Émissions de GES par habitant,tCO2e/hab,EPCI / commune,S34,2 – Utile,Moyenne,Non disponible
+I281,"12. Environnement, risques & climat",Énergie et émissions,Production d'énergies renouvelables locale,GWh/an,EPCI / commune,S34,2 – Utile,Moyenne,Non disponible
+I282,"12. Environnement, risques & climat",Énergie et émissions,Taux de couverture EnR,%,EPCI / commune,S34,2 – Utile,Moyenne,Non disponible
+I283,"12. Environnement, risques & climat",Énergie et émissions,Nombre d'installations photovoltaïques,nb / MW,EPCI / commune,S60,2 – Utile,Moyenne,Non disponible
+I284,"12. Environnement, risques & climat",Énergie et émissions,Consommation électrique par secteur,MWh/an,EPCI / commune,S34,2 – Utile,Moyenne,Non disponible
+I285,13. Déchets & économie circulaire,Production et collecte,Tonnage total de DMA collectés,t/an,EPCI / commune / point de collecte,S33,1 – Socle,Facile,Non disponible
+I286,13. Déchets & économie circulaire,Production et collecte,DMA par habitant,kg/hab/an,EPCI / commune / point de collecte,S33,1 – Socle,Facile,Non disponible
+I287,13. Déchets & économie circulaire,Production et collecte,OMR par habitant,kg/hab/an,EPCI / commune / point de collecte,S33,1 – Socle,Facile,Non disponible
+I288,13. Déchets & économie circulaire,Production et collecte,Collecte sélective par flux,kg/hab/an,EPCI / commune / point de collecte,S33,1 – Socle,Facile,Non disponible
+I289,13. Déchets & économie circulaire,Production et collecte,Taux de refus de tri,%,EPCI / commune / point de collecte,S33,1 – Socle,Facile,Non disponible
+I290,13. Déchets & économie circulaire,Production et collecte,Saisonnalité des tonnages,%,EPCI / commune / point de collecte,S33,1 – Socle,Facile,Non disponible
+I291,13. Déchets & économie circulaire,Production et collecte,Ratio tonnage août / tonnage février,ratio,EPCI / commune / point de collecte,S33,1 – Socle,Facile,Non disponible
+I292,13. Déchets & économie circulaire,Production et collecte,Tonnages en déchèterie par flux,t/an,EPCI / commune / point de collecte,S33,1 – Socle,Facile,Non disponible
+I293,13. Déchets & économie circulaire,Production et collecte,Nombre d'apports en déchèterie,nb/an,EPCI / commune / point de collecte,S33,1 – Socle,Facile,Non disponible
+I294,13. Déchets & économie circulaire,Équipements et performance,Nombre de points d'apport volontaire,nb,Point de collecte / commune,S47,1 – Socle,Facile,Non disponible
+I295,13. Déchets & économie circulaire,Équipements et performance,Taux d'équipement en PAV,hab/PAV,Point de collecte / commune,S47,1 – Socle,Facile,Non disponible
+I296,13. Déchets & économie circulaire,Équipements et performance,Nombre de déchèteries et amplitude d'ouverture,nb / h,Point de collecte / commune,S47,1 – Socle,Facile,Non disponible
+I297,13. Déchets & économie circulaire,Équipements et performance,Taux de valorisation matière et organique,%,Point de collecte / commune,S47,1 – Socle,Facile,Non disponible
+I298,13. Déchets & économie circulaire,Équipements et performance,Part de biodéchets dans les OMR,%,Point de collecte / commune,S47,1 – Socle,Facile,Non disponible
+I299,13. Déchets & économie circulaire,Équipements et performance,Nombre de composteurs distribués,nb,Point de collecte / commune,S47,1 – Socle,Facile,Non disponible
+I300,13. Déchets & économie circulaire,Équipements et performance,Taux d'équipement en composteurs,%,Point de collecte / commune,S47,1 – Socle,Facile,Non disponible
+I301,13. Déchets & économie circulaire,Équipements et performance,Kilomètres parcourus par les collectes,km/an,Point de collecte / commune,S47,1 – Socle,Facile,Non disponible
+I302,13. Déchets & économie circulaire,Équipements et performance,Nombre de réclamations usagers,nb/an,Point de collecte / commune,S47,1 – Socle,Facile,Non disponible
+I303,13. Déchets & économie circulaire,Coûts et comparaison,Coût aidé par habitant,€/hab/an,EPCI,S33,1 – Socle,Moyenne,Non disponible
+I304,13. Déchets & économie circulaire,Coûts et comparaison,Coût aidé par flux,€/t,EPCI,S33,1 – Socle,Moyenne,Non disponible
+I305,13. Déchets & économie circulaire,Coûts et comparaison,Recettes de TEOM / REOM,€/an,EPCI,S33,1 – Socle,Moyenne,Non disponible
+I306,13. Déchets & économie circulaire,Coûts et comparaison,Soutiens des éco-organismes,€/an,EPCI,S33,1 – Socle,Moyenne,Non disponible
+I307,13. Déchets & économie circulaire,Coûts et comparaison,Recettes de vente de matières,€/an,EPCI,S33,1 – Socle,Moyenne,Non disponible
+I308,13. Déchets & économie circulaire,Coûts et comparaison,Comparaison au référentiel national,%,EPCI,S33,1 – Socle,Moyenne,Non disponible
+I309,14. Finances & gouvernance,Situation financière,Recettes et dépenses de fonctionnement,€,Commune / EPCI,S43,2 – Utile,Facile,Non disponible
+I310,14. Finances & gouvernance,Situation financière,Épargne brute et taux d'épargne,€ et %,Commune / EPCI,S43,2 – Utile,Facile,Non disponible
+I311,14. Finances & gouvernance,Situation financière,Encours de dette,€,Commune / EPCI,S43,2 – Utile,Facile,Non disponible
+I312,14. Finances & gouvernance,Situation financière,Capacité de désendettement,années,Commune / EPCI,S43,2 – Utile,Facile,Non disponible
+I313,14. Finances & gouvernance,Situation financière,Dépenses d'équipement par habitant,€/hab,Commune / EPCI,S43,2 – Utile,Facile,Non disponible
+I314,14. Finances & gouvernance,Situation financière,Produit fiscal par nature,€,Commune / EPCI,S43,2 – Utile,Facile,Non disponible
+I315,14. Finances & gouvernance,Situation financière,Potentiel fiscal et potentiel financier,€/hab,Commune / EPCI,S43,2 – Utile,Facile,Non disponible
+I316,14. Finances & gouvernance,Situation financière,Dotations de l'État et FPIC,€,Commune / EPCI,S43,2 – Utile,Facile,Non disponible
+I317,14. Finances & gouvernance,Situation financière,Comparaison avec la strate,%,Commune / EPCI,S43,2 – Utile,Facile,Non disponible
+I318,14. Finances & gouvernance,Organisation et compétences,Nombre de communes membres,nb,EPCI,S44,3 – Approfondissement,Facile,Non disponible
+I319,14. Finances & gouvernance,Organisation et compétences,Nombre de compétences exercées,nb,EPCI,S44,3 – Approfondissement,Facile,Non disponible
+I320,14. Finances & gouvernance,Organisation et compétences,Nombre de syndicats auxquels adhère l'EPCI,nb,EPCI,S44,3 – Approfondissement,Facile,Non disponible
+I321,14. Finances & gouvernance,Organisation et compétences,Effectifs de la collectivité,nb,EPCI,S44,3 – Approfondissement,Facile,Non disponible
+I322,14. Finances & gouvernance,Organisation et compétences,Pyramide des âges des agents,%,EPCI,S44,3 – Approfondissement,Facile,Non disponible
+I323,14. Finances & gouvernance,Organisation et compétences,Documents de planification en vigueur,liste,EPCI,S44,3 – Approfondissement,Facile,Non disponible
+I324,1. Population & démographie,Mouvement naturel,Solde naturel (naissances - décès),hab.,"EPCI, commune, dept, région, France",S06,2 – Utile,Facile,Non disponible
+I325,1. Population & démographie,Structure par âge,Part des 15-64 ans (population en âge d'activité),%,"EPCI, commune, dept, région, France",S01,2 – Utile,Facile,Non disponible
+I326,1. Population & démographie,Composition sociale,Population par catégorie socioprofessionnelle (CSP),hab. / %,"EPCI, commune, dept, région, France",S01,2 – Utile,Facile,Non disponible
+I327,1. Population & démographie,Composition sociale,Part des immigrés / étrangers,%,"EPCI, commune, dept, région, France",S01,3 – Complémentaire,Facile,Non disponible
+I328,2. Logement & habitat,Logement social,Taux SRU (art. 55 loi SRU),%,"Commune, EPCI",S78,2 – Utile,Moyenne,Non disponible
+I329,2. Logement & habitat,Copropriétés,Nombre de copropriétés (RNC),copropriétés,"Commune, EPCI",S55,3 – Complémentaire,Moyenne,Non disponible
+I330,5. Tissu économique & entreprises,Spécialisation économique,Secteur présentiel vs non présentiel,établ. / %,"EPCI, commune, dept, région, France",S05,2 – Utile,Moyenne,Non disponible
+I331,5. Tissu économique & entreprises,Économie sociale et solidaire,Établissements de l'ESS,établ.,"EPCI, dept, région, France",S74,3 – Complémentaire,Moyenne,Non disponible
+I332,5. Tissu économique & entreprises,Artisanat,Artisanat : nombre d'entreprises artisanales,entreprises,"Commune, EPCI, dept, région",S69,2 – Utile,Moyenne,Non disponible
+I333,5. Tissu économique & entreprises,Commerce et zones d'activité,Surfaces et occupation des ZAE,ha / %,"EPCI, dept, région",S75,2 – Utile,Élevée,Non disponible
+I334,"4. Emploi, activité & chômage",Emploi salarié et tensions,Emploi salarié public (Insee),salariés,"Commune, EPCI, dept, région, France",S54,2 – Utile,Moyenne,Non disponible
+I335,"4. Emploi, activité & chômage",Activité et emploi,Taux d'emploi des 55-64 ans,%,"EPCI, commune, dept, région, France",S01,2 – Utile,Facile,Non disponible
+I336,"4. Emploi, activité & chômage",Revenus du travail,Salaire net moyen,€,"EPCI, dept, région, France",S54,3 – Complémentaire,Moyenne,Non disponible
+I337,"4. Emploi, activité & chômage",Revenus du travail,Revenu salarial médian,€,"EPCI, dept, région, France",S54,3 – Complémentaire,Moyenne,Non disponible
+I338,6. Éducation & enfance,Établissements et effectifs 1er degré,Part du privé sous contrat,%,"Commune, EPCI, dept, académie",S12,3 – Complémentaire,Moyenne,Non disponible
+I339,6. Éducation & enfance,Second degré et au-delà,"Part des boursiers (collège, lycée)",%,"EPCI, dept, académie",S12,2 – Utile,Moyenne,Non disponible
+I340,6. Éducation & enfance,Insertion des jeunes,Part des 15-24 ans NEET,%,"EPCI, commune, dept, région, France",S01,2 – Utile,Moyenne,Non disponible
+I341,6. Éducation & enfance,Second degré et au-delà,Effectifs de l'enseignement supérieur,étudiants,"Commune, EPCI, dept, région, France",S76,3 – Complémentaire,Moyenne,Non disponible
+I342,7. Santé & médico-social,Offre de soins de premier recours,Densité de médecins spécialistes,p/100 000 hab.,"EPCI, dept, région, France",S15,2 – Utile,Moyenne,Non disponible
+I343,7. Santé & médico-social,Offre de soins de premier recours,Densité d'infirmiers / kinés / dentistes,p/100 000 hab.,"EPCI, dept, région, France",S15,2 – Utile,Moyenne,Non disponible
+I344,7. Santé & médico-social,Offre de soins de premier recours,Part de la population en zone sous-dense (ZIP),%,"Commune, EPCI, dept",S63,1 – Socle,Moyenne,Non disponible
+I345,7. Santé & médico-social,Établissements sanitaires,"Capacité hospitalière (MCO, SSR, SLD)",lits/pl.,"Commune, EPCI, dept, région",S56,2 – Utile,Moyenne,Non disponible
+I346,7. Santé & médico-social,Grand âge et handicap,Nombre d'EHPAD et capacité,étab. / places,"Commune, EPCI, dept, région",S16,2 – Utile,Facile,Non disponible
+I347,7. Santé & médico-social,Grand âge et handicap,Part de la population de 75+ vivant en établissement,%,"EPCI, commune, dept, région, France",S80,3 – Complémentaire,Élevée,Non disponible
+I348,7. Santé & médico-social,État de santé de la population,Taux de mortalité standardisé (toutes causes),p/100 000,"Zone d'emploi, dept, région, France",S57,2 – Utile,Moyenne,Non disponible
+I349,7. Santé & médico-social,État de santé de la population,Taux de mortalité prématurée (<65 ans),p/100 000,"Dept, région, France",S57,2 – Utile,Moyenne,Non disponible
+I350,8. Tourisme & attractivité,Fréquentation,Saisonnalité des séjours (profil client),%,"Région, dept, EPCI (si dispo via OT)",S77,2 – Utile,Élevée,Non disponible
+I351,8. Tourisme & attractivité,Économie touristique,Nombre de restaurants et capacité,étab.,"Commune, EPCI, dept, région, France",S05,2 – Utile,Moyenne,Non disponible
+I352,8. Tourisme & attractivité,Offre culturelle et patrimoniale,Sites patrimoniaux et musées,sites,"Commune, EPCI, dept, région, France",S58,2 – Utile,Moyenne,Non disponible
+I353,8. Tourisme & attractivité,Offre culturelle et patrimoniale,Festivals et événements (calendrier),evt,"Site, commune, EPCI, dept, région, France",S59,3 – Complémentaire,Élevée,Non disponible
+I354,8. Tourisme & attractivité,E-tourisme,"Présence numérique des hébergeurs (sites, plateformes)",indic.,"Site, commune, EPCI, dept",S59,3 – Complémentaire,Élevée,Non disponible
+I355,10. Mobilités & déplacements,Équipement et offre de transport,Desserte ferroviaire – gares et fréquence,fréquence,"Gare, commune, EPCI, dept, région",S38,2 – Utile,Moyenne,Non disponible
+I356,10. Mobilités & déplacements,Équipement et offre de transport,Stations vélos en libre-service,stations,"Commune, EPCI",S47,3 – Complémentaire,Moyenne,Non disponible
+I357,"12. Environnement, risques & climat",Énergie et émissions,Puissance installée ENR (par filière),MW,"Site, commune, EPCI, dept, région, France",S60,2 – Utile,Moyenne,Non disponible
+I358,"12. Environnement, risques & climat",Qualité de l’air,"Concentrations de polluants (NOx, PM2.5, PM10, O3)",µg/m³,"Site, commune, dept, région",S34,2 – Utile,Moyenne,Non disponible
+I359,14. Finances & gouvernance,Situation financière,Recettes réelles d'investissement,€,"Commune, EPCI, dept, région, France",S43,2 – Utile,Facile,Non disponible
+I360,14. Finances & gouvernance,Fiscalité,Taux de CFE / TEOM / TFB / TFNB,%,"Commune, EPCI, dept, région",S67,2 – Utile,Moyenne,Non disponible
+I361,14. Finances & gouvernance,Fiscalité,Effort fiscal,ratio,"Commune, EPCI, dept, région",S67,3 – Complémentaire,Moyenne,Non disponible
+I362,14. Finances & gouvernance,Dotations et reversements,"Reversements aux communes (AC, DSC)",€,"EPCI, commune",S43,2 – Utile,Moyenne,Non disponible
+I363,14. Finances & gouvernance,Situation financière,Dépenses réelles d'investissement (DRI),€,"Commune, EPCI, dept, région, France",S43,2 – Utile,Facile,Non disponible
+I364,14. Finances & gouvernance,Structure des dépenses,Charges de personnel / Frais financiers / Subventions,€,"Commune, EPCI, dept, région, France",S43,2 – Utile,Moyenne,Non disponible
+I365,14. Finances & gouvernance,Situation financière,Encours de dette et annuité de la dette,€,"Commune, EPCI, dept, région, France",S43,2 – Utile,Facile,Non disponible
+I366,9. Équipements & services,Culture,Bibliothèques / médiathèques,équipts,"Commune, EPCI, dept, région, France",S58,2 – Utile,Moyenne,Non disponible
+I367,9. Équipements & services,Culture,Nombre d'écrans et fauteuils,écrans / fauteuils,"Commune, EPCI, dept, région, France",S68,3 – Complémentaire,Moyenne,Non disponible
+I368,9. Équipements & services,Numérique,Taux d'équipement numérique des ménages,%,"EPCI, commune, dept, région, France",S01,3 – Complémentaire,Moyenne,Non disponible
+I369,9. Équipements & services,Numérique,Taux d'illectronisme,%,"EPCI, dept, région, France",S09,2 – Utile,Moyenne,Non disponible
+I370,3. Revenus & cohésion sociale,Prestations et minima sociaux,Bénéficiaires de l'AAH / ASPA / ASS,alloc.,"EPCI, dept, région, France",S14,2 – Utile,Moyenne,Non disponible
+I371,3. Revenus & cohésion sociale,Niveau de vie,Part des enfants vivant dans une famille pauvre,%,"EPCI, commune, dept, région, France",S03,2 – Utile,Moyenne,Non disponible
+I372,3. Revenus & cohésion sociale,Action sociale locale,CCAS / CIAS (présence et moyens),présence,"Commune, EPCI, dept, région",S81,2 – Utile,Élevée,Non disponible
+I373,"11. Foncier, urbanisme & artificialisation",Documents d’urbanisme et gisements,Schéma de cohérence territoriale (SCoT),binaire,"EPCI, dept, région",S82,2 – Utile,Moyenne,Non disponible
+I374,"11. Foncier, urbanisme & artificialisation",Documents d’urbanisme et gisements,Nombre de permis de construire (PC) déposés,PC,"Commune, EPCI, dept, région, France",S21,2 – Utile,Moyenne,Disponible
+I375,2. Logement & habitat,Structure du parc,Maisons,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I376,2. Logement & habitat,Structure du parc,Appartements,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I377,2. Logement & habitat,Structure du parc,Autres logements,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I378,"4. Emploi, activité & chômage",Activité et emploi,Population 15-64 ans,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I379,"4. Emploi, activité & chômage",Activité et emploi,Nombre de chômeurs 15-64 ans,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I380,"4. Emploi, activité & chômage",Activité et emploi,Actifs occupés résidants,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I381,"4. Emploi, activité & chômage",Activité et emploi,Emplois salariés au lieu de travail,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I382,"4. Emploi, activité & chômage",Activité et emploi,Emplois à temps partiel au lieu de travail,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I383,"4. Emploi, activité & chômage",Activité et emploi,Part du temps partiel parmi les salariés locaux,%,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I384,8. Tourisme & attractivité,Capacité d'accueil,Nombre d’hôtels,nb,Commune / EPCI,S07,1 – Socle,Facile,Disponible
+I385,8. Tourisme & attractivité,Capacité d'accueil,Nombre de chambres d’hôtel,nb,Commune / EPCI,S07,1 – Socle,Facile,Disponible
+I386,8. Tourisme & attractivité,Capacité d'accueil,Nombre de campings,nb,Commune / EPCI,S07,1 – Socle,Facile,Disponible
+I387,8. Tourisme & attractivité,Capacité d'accueil,Nombre d’emplacements de camping,nb,Commune / EPCI,S07,1 – Socle,Facile,Disponible
+I388,8. Tourisme & attractivité,Capacité d'accueil,Autres hébergements collectifs — établissements,nb,Commune / EPCI,S07,1 – Socle,Facile,Disponible
+I389,8. Tourisme & attractivité,Capacité d'accueil,Autres hébergements collectifs — unités / places,nb,Commune / EPCI,S07,1 – Socle,Facile,Disponible
+I390,8. Tourisme & attractivité,Capacité d'accueil,Autres hébergements collectifs — places-lits,nb,Commune / EPCI,S07,1 – Socle,Facile,Disponible
+I391,8. Tourisme & attractivité,Capacité d'accueil,Villages vacances / maisons familiales — établissements,nb,Commune / EPCI,S07,1 – Socle,Facile,Disponible
+I392,8. Tourisme & attractivité,Capacité d'accueil,Villages vacances / maisons familiales — places-lits,nb,Commune / EPCI,S07,1 – Socle,Facile,Disponible
+I393,8. Tourisme & attractivité,Capacité d'accueil,Résidences de tourisme / hôtelières — établissements,nb,Commune / EPCI,S07,1 – Socle,Facile,Disponible
+I394,8. Tourisme & attractivité,Capacité d'accueil,Résidences de tourisme / hôtelières — places-lits,nb,Commune / EPCI,S07,1 – Socle,Facile,Disponible
+I395,8. Tourisme & attractivité,Capacité d'accueil,Auberges / CIS / centres sportifs — établissements,nb,Commune / EPCI,S07,1 – Socle,Facile,Disponible
+I396,8. Tourisme & attractivité,Capacité d'accueil,Auberges / CIS / centres sportifs — places-lits,nb,Commune / EPCI,S07,1 – Socle,Facile,Disponible
+I397,2. Logement & habitat,Structure du parc,Propriétaires,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I398,2. Logement & habitat,Structure du parc,Locataires,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I399,2. Logement & habitat,Structure du parc,dont HLM loué vide,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I400,2. Logement & habitat,Structure du parc,Logés gratuitement,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
+I401,2. Logement & habitat,Structure du parc,Ensemble des résidences principales,nb,Commune / IRIS,S01,1 – Socle,Facile,Disponible
