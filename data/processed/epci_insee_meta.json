@@ -1,0 +1,8 @@
+{
+  "source": "https://www.insee.fr/fr/statistiques/fichier/2521169/comparateur.parquet",
+  "sha256": "81636463002d4f40d30dd92646de37107872af136ff1a1b2a37219c4570abf68",
+  "date_extraction": "2026-11-11",
+  "nb_lignes": 87522,
+  "nb_epci": 1251,
+  "nb_mesures": 28
+}

@@ -1317,7 +1317,7 @@ I041,14110,Commune,2017,,14.0,S01,2026-08-17,Confirmé,
 I041,14110,Commune,2023,,20.75949,S01,2026-08-17,Confirmé,
 I041,14117,Commune,2012,,8336.0,S01,2026-08-17,Confirmé,
 I041,14117,Commune,2017,,8624.0,S01,2026-08-17,Confirmé,
-I041,14117,Commune,2023,,8824.0,S01,2026-08-17,Confirmé,
+I041,14117,Commune,2023,,8774.0,S01,2026-08-17,Confirmé,
 I041,14198,Commune,2012,,32.68571,S01,2026-08-17,Confirmé,
 I041,14198,Commune,2017,,39.27083,S01,2026-08-17,Confirmé,
 I041,14198,Commune,2023,,36.69231,S01,2026-08-17,Confirmé,
@@ -2529,7 +2529,7 @@ I055,14070,Commune,2018,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirm
 I055,14070,Commune,2022,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14070,Commune,2024,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14070,Commune,2025,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
-I055,14106,Commune,2013,part_collectif_hors_residence,91.66666666666669,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
+I055,14106,Commune,2013,part_collectif_hors_residence,91.66666666666667,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14106,Commune,2014,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14106,Commune,2017,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14106,Commune,2018,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
@@ -2546,7 +2546,7 @@ I055,14110,Commune,2020,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirm
 I055,14117,Commune,2013,part_collectif_hors_residence,88.17204301075269,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14117,Commune,2014,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14117,Commune,2015,part_collectif_hors_residence,66.66666666666667,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
-I055,14117,Commune,2016,part_collectif_hors_residence,97.33333333333331,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
+I055,14117,Commune,2016,part_collectif_hors_residence,97.33333333333333,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14117,Commune,2017,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14117,Commune,2018,part_collectif_hors_residence,77.77777777777777,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14117,Commune,2019,part_collectif_hors_residence,78.26086956521739,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
@@ -2604,7 +2604,7 @@ I055,14229,Commune,2020,part_collectif_hors_residence,90.2439024390244,S21,2026-
 I055,14229,Commune,2021,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14229,Commune,2022,part_collectif_hors_residence,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14229,Commune,2023,part_collectif_hors_residence,66.66666666666667,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
-I055,14229,Commune,2024,part_collectif_hors_residence,90.56603773584904,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
+I055,14229,Commune,2024,part_collectif_hors_residence,90.56603773584905,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14229,Commune,2025,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14231,Commune,2013,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14231,Commune,2014,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
@@ -2705,12 +2705,12 @@ I055,14338,Commune,2019,part_collectif_hors_residence,84.61538461538461,S21,2026
 I055,14338,Commune,2020,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14338,Commune,2021,part_collectif_hors_residence,57.57575757575758,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14338,Commune,2022,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
-I055,14338,Commune,2023,part_collectif_hors_residence,96.66666666666669,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
+I055,14338,Commune,2023,part_collectif_hors_residence,96.66666666666667,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14338,Commune,2024,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
-I055,14338,Commune,2025,part_collectif_hors_residence,95.45454545454544,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
+I055,14338,Commune,2025,part_collectif_hors_residence,95.45454545454545,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14409,Commune,2014,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14409,Commune,2016,part_collectif_hors_residence,83.33333333333333,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
-I055,14409,Commune,2017,part_collectif_hors_residence,48.27586206896552,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
+I055,14409,Commune,2017,part_collectif_hors_residence,48.275862068965516,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14409,Commune,2018,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14409,Commune,2019,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14409,Commune,2020,part_collectif_hors_residence,4.545454545454546,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
@@ -2741,7 +2741,7 @@ I055,14524,Commune,2025,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirm
 I055,14530,Commune,2013,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14530,Commune,2014,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14530,Commune,2015,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
-I055,14530,Commune,2016,part_collectif_hors_residence,3.703703703703704,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
+I055,14530,Commune,2016,part_collectif_hors_residence,3.7037037037037037,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14530,Commune,2017,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14530,Commune,2018,part_collectif_hors_residence,32.394366197183096,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
 I055,14530,Commune,2019,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Collectif / Tous Logements × 100 ; les résidences restent isolées.
@@ -2821,7 +2821,7 @@ I055,14743,Commune,2022,part_collectif_hors_residence,0.0,S21,2026-08-21,Confirm
 I055,14009,Commune,2013,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14009,Commune,2014,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14009,Commune,2015,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
-I055,14009,Commune,2016,part_individuel,46.66666666666666,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
+I055,14009,Commune,2016,part_individuel,46.666666666666664,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14009,Commune,2017,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14009,Commune,2018,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14009,Commune,2019,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
@@ -2903,7 +2903,7 @@ I055,14117,Commune,2020,part_individuel,56.25,S21,2026-08-21,Confirmé,Sitadel �
 I055,14117,Commune,2021,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14117,Commune,2022,part_individuel,10.79136690647482,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14117,Commune,2023,part_individuel,31.95876288659794,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
-I055,14117,Commune,2024,part_individuel,54.71698113207548,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
+I055,14117,Commune,2024,part_individuel,54.716981132075475,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14117,Commune,2025,part_individuel,10.091743119266056,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14198,Commune,2015,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14198,Commune,2016,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
@@ -2930,7 +2930,7 @@ I055,14225,Commune,2019,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel �
 I055,14225,Commune,2020,part_individuel,13.88888888888889,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14225,Commune,2021,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14225,Commune,2022,part_individuel,62.5,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
-I055,14225,Commune,2023,part_individuel,7.84313725490196,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
+I055,14225,Commune,2023,part_individuel,7.8431372549019605,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14225,Commune,2024,part_individuel,53.01204819277108,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14225,Commune,2025,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14227,Commune,2014,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
@@ -3050,23 +3050,23 @@ I055,14338,Commune,2015,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel �
 I055,14338,Commune,2016,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14338,Commune,2017,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14338,Commune,2018,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
-I055,14338,Commune,2019,part_individuel,15.384615384615383,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
+I055,14338,Commune,2019,part_individuel,15.384615384615385,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14338,Commune,2020,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14338,Commune,2021,part_individuel,42.42424242424242,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14338,Commune,2022,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
-I055,14338,Commune,2023,part_individuel,3.333333333333333,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
+I055,14338,Commune,2023,part_individuel,3.3333333333333335,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14338,Commune,2024,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14338,Commune,2025,part_individuel,4.545454545454546,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14409,Commune,2014,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14409,Commune,2016,part_individuel,16.666666666666668,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
-I055,14409,Commune,2017,part_individuel,51.72413793103448,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
+I055,14409,Commune,2017,part_individuel,51.724137931034484,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14409,Commune,2018,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14409,Commune,2019,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
-I055,14409,Commune,2020,part_individuel,95.45454545454544,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
+I055,14409,Commune,2020,part_individuel,95.45454545454545,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14409,Commune,2021,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14409,Commune,2022,part_individuel,21.428571428571427,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14409,Commune,2023,part_individuel,8.94308943089431,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
-I055,14409,Commune,2024,part_individuel,23.88059701492537,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
+I055,14409,Commune,2024,part_individuel,23.880597014925375,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14409,Commune,2025,part_individuel,21.73913043478261,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14494,Commune,2014,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14494,Commune,2016,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
@@ -3090,7 +3090,7 @@ I055,14524,Commune,2025,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel �
 I055,14530,Commune,2013,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14530,Commune,2014,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14530,Commune,2015,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
-I055,14530,Commune,2016,part_individuel,96.29629629629628,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
+I055,14530,Commune,2016,part_individuel,96.29629629629629,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14530,Commune,2017,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14530,Commune,2018,part_individuel,67.6056338028169,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
 I055,14530,Commune,2019,part_individuel,100.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : (Individuel pur + Individuel groupe) / Tous Logements × 100.
@@ -3271,7 +3271,7 @@ I055,14203,Commune,2024,part_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — 
 I055,14203,Commune,2025,part_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Residence / Tous Logements × 100.
 I055,14225,Commune,2013,part_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Residence / Tous Logements × 100.
 I055,14225,Commune,2014,part_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Residence / Tous Logements × 100.
-I055,14225,Commune,2015,part_residence,98.33333333333331,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Residence / Tous Logements × 100.
+I055,14225,Commune,2015,part_residence,98.33333333333333,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Residence / Tous Logements × 100.
 I055,14225,Commune,2016,part_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Residence / Tous Logements × 100.
 I055,14225,Commune,2017,part_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Residence / Tous Logements × 100.
 I055,14225,Commune,2018,part_residence,0.0,S21,2026-08-21,Confirmé,Sitadel — logements autorisés : Residence / Tous Logements × 100.
@@ -3529,14 +3529,14 @@ I056,14009,Commune,2022,autorises,154.8,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14009,Commune,2023,autorises,222.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14012,Commune,2013,autorises,86.33333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14012,Commune,2014,autorises,83.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14012,Commune,2015,autorises,97.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14012,Commune,2015,autorises,97.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14012,Commune,2016,autorises,88.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14012,Commune,2018,autorises,128.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14012,Commune,2020,autorises,105.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14012,Commune,2021,autorises,41.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14012,Commune,2022,autorises,111.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14012,Commune,2025,autorises,143.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14024,Commune,2013,autorises,122.1818181818182,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14024,Commune,2013,autorises,122.18181818181819,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14024,Commune,2014,autorises,136.05,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14024,Commune,2015,autorises,127.11111111111111,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14024,Commune,2016,autorises,160.4,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3548,7 +3548,7 @@ I056,14024,Commune,2021,autorises,140.25,S21,2026-08-21,Confirmé,"Sitadel — d
 I056,14024,Commune,2022,autorises,363.4,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14024,Commune,2023,autorises,176.66666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14024,Commune,2024,autorises,205.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14024,Commune,2025,autorises,184.3333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14024,Commune,2025,autorises,184.33333333333334,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14045,Commune,2013,autorises,44.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14045,Commune,2014,autorises,169.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14045,Commune,2017,autorises,184.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3588,10 +3588,10 @@ I056,14106,Commune,2023,autorises,118.0,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14106,Commune,2024,autorises,56.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14106,Commune,2025,autorises,96.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14110,Commune,2015,autorises,129.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14110,Commune,2017,autorises,208.66666666666663,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14110,Commune,2017,autorises,208.66666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14110,Commune,2020,autorises,30.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14117,Commune,2013,autorises,68.05376344086021,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14117,Commune,2014,autorises,125.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14117,Commune,2014,autorises,125.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14117,Commune,2015,autorises,76.16666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14117,Commune,2016,autorises,61.85333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14117,Commune,2017,autorises,142.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3607,12 +3607,12 @@ I056,14198,Commune,2015,autorises,107.0,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14198,Commune,2016,autorises,100.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14198,Commune,2019,autorises,123.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14198,Commune,2020,autorises,109.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14198,Commune,2021,autorises,123.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14198,Commune,2021,autorises,123.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14198,Commune,2022,autorises,147.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14198,Commune,2023,autorises,201.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14198,Commune,2024,autorises,140.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14203,Commune,2016,autorises,141.6,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14203,Commune,2017,autorises,113.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14203,Commune,2017,autorises,113.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14203,Commune,2019,autorises,138.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14203,Commune,2021,autorises,168.66666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14203,Commune,2022,autorises,662.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3639,11 +3639,11 @@ I056,14227,Commune,2021,autorises,157.0,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14227,Commune,2022,autorises,120.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14227,Commune,2023,autorises,200.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14227,Commune,2024,autorises,158.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14227,Commune,2025,autorises,182.3333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14227,Commune,2025,autorises,182.33333333333334,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14229,Commune,2013,autorises,57.25,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14229,Commune,2014,autorises,101.16666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14229,Commune,2014,autorises,101.16666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14229,Commune,2015,autorises,119.9,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14229,Commune,2016,autorises,99.70588235294116,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14229,Commune,2016,autorises,99.70588235294117,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14229,Commune,2017,autorises,97.9,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14229,Commune,2018,autorises,104.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14229,Commune,2019,autorises,108.4,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3657,7 +3657,7 @@ I056,14231,Commune,2013,autorises,104.5,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14231,Commune,2014,autorises,110.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14231,Commune,2016,autorises,149.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14231,Commune,2018,autorises,141.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14231,Commune,2020,autorises,106.33333333333331,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14231,Commune,2020,autorises,106.33333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14231,Commune,2021,autorises,134.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14231,Commune,2022,autorises,94.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14231,Commune,2023,autorises,127.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3668,15 +3668,15 @@ I056,14246,Commune,2014,autorises,154.0,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14246,Commune,2016,autorises,128.16666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14246,Commune,2017,autorises,163.83333333333334,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14246,Commune,2019,autorises,88.41176470588235,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14246,Commune,2020,autorises,122.28571428571428,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14246,Commune,2020,autorises,122.28571428571429,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14246,Commune,2021,autorises,133.27272727272728,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14246,Commune,2022,autorises,185.8,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14246,Commune,2023,autorises,110.0909090909091,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14246,Commune,2024,autorises,134.6,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14246,Commune,2025,autorises,118.23333333333332,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14305,Commune,2013,autorises,194.66666666666663,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14246,Commune,2025,autorises,118.23333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14305,Commune,2013,autorises,194.66666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14305,Commune,2014,autorises,168.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14305,Commune,2015,autorises,196.66666666666663,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14305,Commune,2015,autorises,196.66666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14305,Commune,2016,autorises,173.6,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14305,Commune,2017,autorises,207.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14305,Commune,2018,autorises,178.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3685,7 +3685,7 @@ I056,14305,Commune,2020,autorises,153.0,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14305,Commune,2021,autorises,152.66666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14305,Commune,2022,autorises,139.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14305,Commune,2023,autorises,245.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14305,Commune,2024,autorises,100.33333333333331,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14305,Commune,2024,autorises,100.33333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14306,Commune,2017,autorises,103.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14306,Commune,2018,autorises,125.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14306,Commune,2019,autorises,225.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3696,8 +3696,8 @@ I056,14306,Commune,2024,autorises,119.5,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14306,Commune,2025,autorises,109.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14308,Commune,2014,autorises,131.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14308,Commune,2015,autorises,147.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14308,Commune,2016,autorises,101.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14308,Commune,2017,autorises,104.72727272727272,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14308,Commune,2016,autorises,101.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14308,Commune,2017,autorises,104.72727272727273,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14308,Commune,2018,autorises,83.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14308,Commune,2020,autorises,92.2,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14308,Commune,2021,autorises,59.24,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3709,7 +3709,7 @@ I056,14316,Commune,2013,autorises,49.0,S21,2026-08-21,Confirmé,"Sitadel — don
 I056,14316,Commune,2014,autorises,142.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14316,Commune,2015,autorises,254.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14316,Commune,2016,autorises,377.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14316,Commune,2017,autorises,119.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14316,Commune,2017,autorises,119.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14316,Commune,2018,autorises,153.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14316,Commune,2019,autorises,128.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14316,Commune,2020,autorises,153.625,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3719,10 +3719,10 @@ I056,14316,Commune,2023,autorises,151.14285714285714,S21,2026-08-21,Confirmé,"S
 I056,14316,Commune,2024,autorises,167.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14316,Commune,2025,autorises,134.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14328,Commune,2013,autorises,91.15,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14328,Commune,2014,autorises,125.83333333333331,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14328,Commune,2014,autorises,125.83333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14328,Commune,2015,autorises,110.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14328,Commune,2016,autorises,114.22222222222224,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14328,Commune,2017,autorises,120.1818181818182,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14328,Commune,2016,autorises,114.22222222222223,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14328,Commune,2017,autorises,120.18181818181819,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14328,Commune,2018,autorises,129.66666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14328,Commune,2019,autorises,126.25,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14328,Commune,2020,autorises,119.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3737,31 +3737,31 @@ I056,14329,Commune,2017,autorises,119.5,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14329,Commune,2018,autorises,94.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14329,Commune,2019,autorises,110.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14329,Commune,2020,autorises,133.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14329,Commune,2021,autorises,123.54545454545456,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14329,Commune,2021,autorises,123.54545454545455,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14329,Commune,2025,autorises,224.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14335,Commune,2014,autorises,115.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14335,Commune,2018,autorises,113.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14335,Commune,2024,autorises,183.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14338,Commune,2013,autorises,146.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14338,Commune,2014,autorises,97.45454545454544,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14338,Commune,2014,autorises,97.45454545454545,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14338,Commune,2015,autorises,151.42857142857142,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14338,Commune,2016,autorises,208.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14338,Commune,2017,autorises,127.875,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14338,Commune,2018,autorises,229.75,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14338,Commune,2019,autorises,76.6923076923077,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14338,Commune,2020,autorises,111.42857142857144,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14338,Commune,2021,autorises,92.96969696969695,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14338,Commune,2020,autorises,111.42857142857143,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14338,Commune,2021,autorises,92.96969696969697,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14338,Commune,2022,autorises,316.25,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14338,Commune,2023,autorises,81.36666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14338,Commune,2024,autorises,186.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14338,Commune,2025,autorises,70.72727272727273,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14409,Commune,2014,autorises,218.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14409,Commune,2016,autorises,70.86666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14409,Commune,2017,autorises,102.41379310344828,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14409,Commune,2017,autorises,102.41379310344827,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14409,Commune,2018,autorises,124.88888888888889,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14409,Commune,2019,autorises,93.82857142857142,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14409,Commune,2020,autorises,102.0909090909091,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14409,Commune,2021,autorises,100.62162162162164,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14409,Commune,2021,autorises,100.62162162162163,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14409,Commune,2022,autorises,84.64285714285714,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14409,Commune,2023,autorises,59.8130081300813,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14409,Commune,2024,autorises,62.88059701492537,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3775,8 +3775,8 @@ I056,14494,Commune,2021,autorises,177.0,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14494,Commune,2025,autorises,122.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14499,Commune,2014,autorises,114.55555555555556,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14499,Commune,2015,autorises,116.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14499,Commune,2016,autorises,122.57142857142856,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14499,Commune,2017,autorises,124.71428571428572,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14499,Commune,2016,autorises,122.57142857142857,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14499,Commune,2017,autorises,124.71428571428571,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14499,Commune,2018,autorises,76.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14499,Commune,2021,autorises,131.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14499,Commune,2024,autorises,70.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3817,7 +3817,7 @@ I056,14606,Commune,2015,autorises,134.5,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14606,Commune,2016,autorises,130.75,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14606,Commune,2017,autorises,113.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14606,Commune,2018,autorises,117.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14606,Commune,2019,autorises,93.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14606,Commune,2019,autorises,93.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14606,Commune,2020,autorises,154.75,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14606,Commune,2023,autorises,129.75,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14606,Commune,2024,autorises,76.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3858,7 +3858,7 @@ I056,14724,Commune,2018,autorises,166.75,S21,2026-08-21,Confirmé,"Sitadel — d
 I056,14724,Commune,2019,autorises,140.4,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14724,Commune,2020,autorises,106.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14724,Commune,2021,autorises,63.74829931972789,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
-I056,14724,Commune,2022,autorises,124.27272727272728,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
+I056,14724,Commune,2022,autorises,124.27272727272727,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14724,Commune,2023,autorises,136.51063829787233,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14724,Commune,2024,autorises,176.36363636363637,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14724,Commune,2025,autorises,201.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
@@ -3867,18 +3867,18 @@ I056,14743,Commune,2018,autorises,122.0,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14743,Commune,2022,autorises,234.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_AUT / LOG_AUT (m² par logement autorisé)."
 I056,14009,Commune,2013,commences,152.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14009,Commune,2014,commences,197.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14009,Commune,2015,commences,120.42857142857144,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14009,Commune,2015,commences,120.42857142857143,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14009,Commune,2016,commences,118.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14009,Commune,2017,commences,137.4,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14009,Commune,2018,commences,95.42857142857144,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14009,Commune,2018,commences,95.42857142857143,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14009,Commune,2019,commences,127.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14009,Commune,2020,commences,134.75,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14009,Commune,2021,commences,127.71428571428572,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14009,Commune,2021,commences,127.71428571428571,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14009,Commune,2022,commences,150.83333333333334,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14009,Commune,2024,commences,222.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14012,Commune,2013,commences,86.33333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14012,Commune,2014,commences,83.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14012,Commune,2015,commences,97.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14012,Commune,2015,commences,97.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14012,Commune,2016,commences,88.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14012,Commune,2020,commences,107.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14012,Commune,2021,commences,104.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -3928,11 +3928,11 @@ I056,14106,Commune,2024,commences,87.0,S21,2026-08-21,Confirmé,"Sitadel — don
 I056,14110,Commune,2017,commences,187.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14110,Commune,2018,commences,190.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14117,Commune,2013,commences,70.26785714285714,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14117,Commune,2014,commences,113.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14117,Commune,2014,commences,113.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14117,Commune,2015,commences,155.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14117,Commune,2016,commences,57.4,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14117,Commune,2017,commences,62.851851851851855,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14117,Commune,2019,commences,120.83333333333331,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14117,Commune,2019,commences,120.83333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14117,Commune,2020,commences,110.2,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14117,Commune,2021,commences,69.10714285714286,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14117,Commune,2022,commences,72.53846153846153,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -3951,7 +3951,7 @@ I056,14203,Commune,2022,commences,206.5,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14203,Commune,2023,commences,362.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14203,Commune,2024,commences,187.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14225,Commune,2013,commences,82.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14225,Commune,2014,commences,97.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14225,Commune,2014,commences,97.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14225,Commune,2015,commences,69.65384615384616,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14225,Commune,2016,commences,116.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14225,Commune,2017,commences,62.59398496240601,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -3969,8 +3969,8 @@ I056,14229,Commune,2013,commences,77.0,S21,2026-08-21,Confirmé,"Sitadel — don
 I056,14229,Commune,2014,commences,81.6,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14229,Commune,2015,commences,117.36363636363636,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14229,Commune,2016,commences,103.9090909090909,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14229,Commune,2017,commences,99.1818181818182,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14229,Commune,2018,commences,99.42857142857144,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14229,Commune,2017,commences,99.18181818181819,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14229,Commune,2018,commences,99.42857142857143,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14229,Commune,2019,commences,114.6,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14229,Commune,2020,commences,97.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14229,Commune,2021,commences,61.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -3992,9 +3992,9 @@ I056,14246,Commune,2017,commences,190.5,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14246,Commune,2018,commences,116.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14246,Commune,2019,commences,133.66666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14246,Commune,2020,commences,95.02439024390245,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14246,Commune,2021,commences,124.8095238095238,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14246,Commune,2022,commences,232.3333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14246,Commune,2023,commences,117.70588235294116,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14246,Commune,2021,commences,124.80952380952381,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14246,Commune,2022,commences,232.33333333333334,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14246,Commune,2023,commences,117.70588235294117,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14246,Commune,2024,commences,128.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14305,Commune,2013,commences,183.2,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14305,Commune,2014,commences,175.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -4006,7 +4006,7 @@ I056,14305,Commune,2019,commences,160.75,S21,2026-08-21,Confirmé,"Sitadel — d
 I056,14305,Commune,2020,commences,172.75,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14305,Commune,2021,commences,130.4,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14305,Commune,2022,commences,176.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14305,Commune,2023,commences,250.66666666666663,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14305,Commune,2023,commences,250.66666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14305,Commune,2024,commences,178.33333333333334,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14306,Commune,2019,commences,175.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14306,Commune,2021,commences,156.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -4014,15 +4014,15 @@ I056,14306,Commune,2022,commences,125.2,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14306,Commune,2023,commences,128.33333333333334,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14306,Commune,2024,commences,89.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14308,Commune,2014,commences,131.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14308,Commune,2016,commences,103.72727272727272,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14308,Commune,2016,commences,103.72727272727273,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14308,Commune,2017,commences,106.14285714285714,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14308,Commune,2018,commences,98.4,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14308,Commune,2020,commences,73.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14308,Commune,2021,commences,105.24,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14308,Commune,2022,commences,41.50943396226416,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14308,Commune,2022,commences,41.509433962264154,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14308,Commune,2023,commences,113.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14308,Commune,2024,commences,123.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14316,Commune,2013,commences,113.33333333333331,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14316,Commune,2013,commences,113.33333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14316,Commune,2014,commences,142.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14316,Commune,2015,commences,254.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14316,Commune,2017,commences,138.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -4030,7 +4030,7 @@ I056,14316,Commune,2018,commences,102.5,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14316,Commune,2019,commences,137.875,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14316,Commune,2020,commences,179.16666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14316,Commune,2021,commences,150.66666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14316,Commune,2022,commences,107.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14316,Commune,2022,commences,107.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14316,Commune,2023,commences,162.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14316,Commune,2024,commences,148.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14328,Commune,2013,commences,133.66666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -4038,7 +4038,7 @@ I056,14328,Commune,2014,commences,89.975,S21,2026-08-21,Confirmé,"Sitadel — d
 I056,14328,Commune,2015,commences,108.8,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14328,Commune,2016,commences,120.2,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14328,Commune,2017,commences,119.2,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14328,Commune,2018,commences,126.33333333333331,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14328,Commune,2018,commences,126.33333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14328,Commune,2019,commences,139.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14328,Commune,2020,commences,131.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14328,Commune,2021,commences,100.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -4053,7 +4053,7 @@ I056,14329,Commune,2018,commences,103.5,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14329,Commune,2019,commences,110.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14329,Commune,2020,commences,138.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14329,Commune,2021,commences,131.54545454545453,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14329,Commune,2022,commences,102.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14329,Commune,2022,commences,102.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14335,Commune,2019,commences,145.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14335,Commune,2024,commences,133.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14338,Commune,2013,commences,147.28571428571428,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -4071,12 +4071,12 @@ I056,14338,Commune,2024,commences,94.0,S21,2026-08-21,Confirmé,"Sitadel — don
 I056,14409,Commune,2013,commences,183.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14409,Commune,2014,commences,73.1864406779661,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14409,Commune,2015,commences,208.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14409,Commune,2016,commences,94.33333333333331,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14409,Commune,2016,commences,94.33333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14409,Commune,2017,commences,83.41935483870968,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14409,Commune,2018,commences,96.17857142857144,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14409,Commune,2018,commences,96.17857142857143,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14409,Commune,2019,commences,112.9375,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14409,Commune,2020,commences,119.33333333333331,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14409,Commune,2021,commences,113.54545454545456,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14409,Commune,2020,commences,119.33333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14409,Commune,2021,commences,113.54545454545455,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14409,Commune,2022,commences,85.76785714285714,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14409,Commune,2023,commences,133.77777777777777,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14409,Commune,2024,commences,99.10526315789474,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -4087,15 +4087,15 @@ I056,14494,Commune,2021,commences,198.4,S21,2026-08-21,Confirmé,"Sitadel — do
 I056,14494,Commune,2022,commences,182.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14499,Commune,2014,commences,114.55555555555556,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14499,Commune,2016,commences,109.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14499,Commune,2017,commences,124.72727272727272,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14499,Commune,2017,commences,124.72727272727273,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14499,Commune,2021,commences,131.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14524,Commune,2018,commences,131.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14524,Commune,2019,commences,107.14285714285714,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14524,Commune,2020,commences,108.4,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14530,Commune,2013,commences,122.33333333333331,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14530,Commune,2013,commences,122.33333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14530,Commune,2014,commences,56.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14530,Commune,2015,commences,132.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14530,Commune,2016,commences,100.11940298507464,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14530,Commune,2016,commences,100.11940298507463,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14530,Commune,2017,commences,85.83333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14530,Commune,2018,commences,112.07692307692308,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14530,Commune,2019,commences,88.95161290322581,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -4114,13 +4114,13 @@ I056,14598,Commune,2018,commences,100.625,S21,2026-08-21,Confirmé,"Sitadel — 
 I056,14598,Commune,2019,commences,125.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14598,Commune,2020,commences,106.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14598,Commune,2021,commences,133.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14598,Commune,2022,commences,109.33333333333331,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14598,Commune,2022,commences,109.33333333333333,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14598,Commune,2024,commences,146.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14606,Commune,2013,commences,153.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14606,Commune,2014,commences,112.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14606,Commune,2015,commences,121.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14606,Commune,2015,commences,121.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14606,Commune,2016,commences,141.6,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14606,Commune,2017,commences,109.57142857142856,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14606,Commune,2017,commences,109.57142857142857,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14606,Commune,2018,commences,121.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14606,Commune,2019,commences,102.25,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14606,Commune,2020,commences,156.66666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -4135,7 +4135,7 @@ I056,14660,Commune,2015,commences,87.0,S21,2026-08-21,Confirmé,"Sitadel — don
 I056,14660,Commune,2016,commences,125.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14660,Commune,2017,commences,144.25,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14660,Commune,2018,commences,97.4,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14660,Commune,2019,commences,115.66666666666669,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14660,Commune,2019,commences,115.66666666666667,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14660,Commune,2020,commences,149.33333333333334,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14660,Commune,2021,commences,127.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14660,Commune,2023,commences,88.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -4159,7 +4159,7 @@ I056,14724,Commune,2018,commences,137.375,S21,2026-08-21,Confirmé,"Sitadel — 
 I056,14724,Commune,2019,commences,165.33333333333334,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14724,Commune,2020,commences,116.5,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14724,Commune,2021,commences,98.75,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
-I056,14724,Commune,2022,commences,116.04761904761904,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
+I056,14724,Commune,2022,commences,116.04761904761905,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14724,Commune,2023,commences,170.66666666666666,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14724,Commune,2024,commences,134.42857142857142,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
 I056,14743,Commune,2015,commences,130.0,S21,2026-08-21,Confirmé,"Sitadel — données annuelles communales logements, millésime 2026-07, type « Tous Logements » — calcul exact SDP_COM / LOG_COM (m² par logement commencé)."
@@ -4978,7 +4978,7 @@ I074,14117,Commune,2012,,3.4013014905410413,S03,2026-08-21,Confirmé,Filosofi 20
 I074,14117,Commune,2013,,3.348023982170327,S03,2026-08-21,Confirmé,Filosofi 2013 — filo-revenu-pauvrete-menage-2013.xls — variable RD13 (Rapport interdécile D9/D1) ; commune source : Cabourg
 I074,14117,Commune,2014,,3.3811400293255134,S03,2026-08-21,Confirmé,Filosofi 2014 — base-cc-filosofi-2014.xls — variable RD14 (Rapport interdécile D9/D1) ; commune source : Cabourg
 I074,14117,Commune,2015,,3.389992301770592,S03,2026-08-21,Confirmé,Filosofi 2015 — base-cc-filosofi-2015.xls — variable RD15 (Rapport interdécile D9/D1) ; commune source : Cabourg
-I074,14117,Commune,2016,,3.357167650121485,S03,2026-08-21,Confirmé,Filosofi 2016 — base-cc-filosofi-2016.xls — variable RD16 (Rapport interdécile D9/D1) ; commune source : Cabourg
+I074,14117,Commune,2016,,3.3571676501214855,S03,2026-08-21,Confirmé,Filosofi 2016 — base-cc-filosofi-2016.xls — variable RD16 (Rapport interdécile D9/D1) ; commune source : Cabourg
 I074,14117,Commune,2017,,3.3,S03,2026-08-21,Confirmé,Filosofi 2017 — FILO2017_DISP_COM.xlsx — variable RD (Rapport interdécile D9/D1) ; commune source : Cabourg
 I074,14117,Commune,2019,,3.2,S03,2026-08-21,Confirmé,Filosofi 2019 — FILO2019_DISP_COM.csv — variable RD (Rapport interdécile D9/D1) ; commune source : Cabourg
 I074,14117,Commune,2020,,3.3,S03,2026-08-21,Confirmé,Filosofi 2020 — FILO2020_DISP_COM.csv — variable RD (Rapport interdécile D9/D1) ; commune source : Cabourg
@@ -5005,7 +5005,7 @@ I074,14338,Commune,2017,,3.3,S03,2026-08-21,Confirmé,Filosofi 2017 — FILO2017
 I074,14338,Commune,2019,,3.2,S03,2026-08-21,Confirmé,Filosofi 2019 — FILO2019_DISP_COM.csv — variable RD (Rapport interdécile D9/D1) ; commune source : Houlgate
 I074,14338,Commune,2020,,3.4,S03,2026-08-21,Confirmé,Filosofi 2020 — FILO2020_DISP_COM.csv — variable RD (Rapport interdécile D9/D1) ; commune source : Houlgate
 I074,14338,Commune,2021,,3.3,S03,2026-08-21,Confirmé,Filosofi 2021 — FILO2021_DISP_COM.csv — variable RD (Rapport interdécile D9/D1) ; commune source : Houlgate
-I074,14409,Commune,2012,,3.007832898172324,S03,2026-08-21,Confirmé,Filosofi 2012 — base-cc-filosofi-12.xls — variable RD12 (Rapport interdécile D9/D1) ; commune source : Merville-Franceville-Plage
+I074,14409,Commune,2012,,3.0078328981723237,S03,2026-08-21,Confirmé,Filosofi 2012 — base-cc-filosofi-12.xls — variable RD12 (Rapport interdécile D9/D1) ; commune source : Merville-Franceville-Plage
 I074,14409,Commune,2013,,3.1281330295244247,S03,2026-08-21,Confirmé,Filosofi 2013 — filo-revenu-pauvrete-menage-2013.xls — variable RD13 (Rapport interdécile D9/D1) ; commune source : Merville-Franceville-Plage
 I074,14409,Commune,2014,,3.192041394603918,S03,2026-08-21,Confirmé,Filosofi 2014 — base-cc-filosofi-2014.xls — variable RD14 (Rapport interdécile D9/D1) ; commune source : Merville-Franceville-Plage
 I074,14409,Commune,2015,,2.93475,S03,2026-08-21,Confirmé,Filosofi 2015 — base-cc-filosofi-2015.xls — variable RD15 (Rapport interdécile D9/D1) ; commune source : Merville-Franceville-Plage
@@ -6157,120 +6157,120 @@ I096,14724,Commune,2023,,42.3,S01,2026-08-17,Confirmé,
 I096,14743,Commune,2012,,76.0,S01,2026-08-17,Confirmé,
 I096,14743,Commune,2017,,88.7,S01,2026-08-17,Confirmé,
 I096,14743,Commune,2023,,113.7,S01,2026-08-17,Confirmé,
-I097,14009,Commune,2012,,8.5,S01,2026-08-17,Confirmé,
-I097,14009,Commune,2017,,8.5,S01,2026-08-17,Confirmé,
-I097,14009,Commune,2023,,6.9,S01,2026-08-17,Confirmé,
-I097,14012,Commune,2012,,5.800000000000001,S01,2026-08-17,Confirmé,
-I097,14012,Commune,2017,,8.200000000000001,S01,2026-08-17,Confirmé,
-I097,14012,Commune,2023,,8.200000000000001,S01,2026-08-17,Confirmé,
-I097,14024,Commune,2012,,8.3,S01,2026-08-17,Confirmé,
-I097,14024,Commune,2017,,10.9,S01,2026-08-17,Confirmé,
-I097,14024,Commune,2023,,9.1,S01,2026-08-17,Confirmé,
-I097,14045,Commune,2012,,8.799999999999999,S01,2026-08-17,Confirmé,
-I097,14045,Commune,2017,,6.2,S01,2026-08-17,Confirmé,
-I097,14045,Commune,2023,,6.3,S01,2026-08-17,Confirmé,
-I097,14046,Commune,2012,,9.0,S01,2026-08-17,Confirmé,
-I097,14046,Commune,2017,,7.8,S01,2026-08-17,Confirmé,
-I097,14046,Commune,2023,,5.2,S01,2026-08-17,Confirmé,
-I097,14070,Commune,2012,,13.900000000000002,S01,2026-08-17,Confirmé,
-I097,14070,Commune,2017,,8.0,S01,2026-08-17,Confirmé,
-I097,14070,Commune,2023,,13.3,S01,2026-08-17,Confirmé,
-I097,14106,Commune,2012,,9.0,S01,2026-08-17,Confirmé,
-I097,14106,Commune,2017,,8.0,S01,2026-08-17,Confirmé,
-I097,14106,Commune,2023,,5.2,S01,2026-08-17,Confirmé,
-I097,14110,Commune,2012,,5.7,S01,2026-08-17,Confirmé,
-I097,14110,Commune,2017,,15.9,S01,2026-08-17,Confirmé,
-I097,14110,Commune,2023,,11.600000000000001,S01,2026-08-17,Confirmé,
-I097,14117,Commune,2012,,18.9,S01,2026-08-17,Confirmé,
-I097,14117,Commune,2017,,19.900000000000002,S01,2026-08-17,Confirmé,
-I097,14117,Commune,2023,,14.000000000000002,S01,2026-08-17,Confirmé,
-I097,14198,Commune,2012,,2.1,S01,2026-08-17,Confirmé,
-I097,14198,Commune,2017,,10.0,S01,2026-08-17,Confirmé,
-I097,14198,Commune,2023,,6.3,S01,2026-08-17,Confirmé,
-I097,14203,Commune,2012,,7.6,S01,2026-08-17,Confirmé,
-I097,14203,Commune,2017,,7.8,S01,2026-08-17,Confirmé,
-I097,14203,Commune,2023,,4.9,S01,2026-08-17,Confirmé,
-I097,14225,Commune,2012,,19.1,S01,2026-08-17,Confirmé,
-I097,14225,Commune,2017,,16.400000000000002,S01,2026-08-17,Confirmé,
-I097,14225,Commune,2023,,15.2,S01,2026-08-17,Confirmé,
-I097,14227,Commune,2012,,2.9000000000000004,S01,2026-08-17,Confirmé,
-I097,14227,Commune,2017,,6.7,S01,2026-08-17,Confirmé,
-I097,14227,Commune,2023,,4.8,S01,2026-08-17,Confirmé,
-I097,14229,Commune,2012,,10.5,S01,2026-08-17,Confirmé,
-I097,14229,Commune,2017,,9.700000000000001,S01,2026-08-17,Confirmé,
-I097,14229,Commune,2023,,8.4,S01,2026-08-17,Confirmé,
-I097,14231,Commune,2012,,8.799999999999999,S01,2026-08-17,Confirmé,
-I097,14231,Commune,2017,,8.6,S01,2026-08-17,Confirmé,
-I097,14231,Commune,2023,,5.1,S01,2026-08-17,Confirmé,
-I097,14246,Commune,2012,,11.600000000000001,S01,2026-08-17,Confirmé,
-I097,14246,Commune,2017,,7.3999999999999995,S01,2026-08-17,Confirmé,
-I097,14246,Commune,2023,,4.8,S01,2026-08-17,Confirmé,
-I097,14305,Commune,2012,,8.7,S01,2026-08-17,Confirmé,
-I097,14305,Commune,2017,,9.3,S01,2026-08-17,Confirmé,
-I097,14305,Commune,2023,,12.4,S01,2026-08-17,Confirmé,
-I097,14306,Commune,2012,,8.3,S01,2026-08-17,Confirmé,
-I097,14306,Commune,2017,,6.6000000000000005,S01,2026-08-17,Confirmé,
-I097,14306,Commune,2023,,8.3,S01,2026-08-17,Confirmé,
-I097,14308,Commune,2012,,6.0,S01,2026-08-17,Confirmé,
-I097,14308,Commune,2017,,8.5,S01,2026-08-17,Confirmé,
-I097,14308,Commune,2023,,5.7,S01,2026-08-17,Confirmé,
-I097,14316,Commune,2012,,6.9,S01,2026-08-17,Confirmé,
-I097,14316,Commune,2017,,4.3,S01,2026-08-17,Confirmé,
-I097,14316,Commune,2023,,6.2,S01,2026-08-17,Confirmé,
-I097,14328,Commune,2012,,8.799999999999999,S01,2026-08-17,Confirmé,
-I097,14328,Commune,2017,,8.200000000000001,S01,2026-08-17,Confirmé,
-I097,14328,Commune,2023,,7.8,S01,2026-08-17,Confirmé,
-I097,14329,Commune,2012,,19.5,S01,2026-08-17,Confirmé,
-I097,14329,Commune,2017,,16.900000000000002,S01,2026-08-17,Confirmé,
-I097,14329,Commune,2023,,6.3,S01,2026-08-17,Confirmé,
-I097,14335,Commune,2012,,6.5,S01,2026-08-17,Confirmé,
-I097,14335,Commune,2017,,6.5,S01,2026-08-17,Confirmé,
-I097,14335,Commune,2023,,5.0,S01,2026-08-17,Confirmé,
-I097,14338,Commune,2012,,15.5,S01,2026-08-17,Confirmé,
-I097,14338,Commune,2017,,16.6,S01,2026-08-17,Confirmé,
-I097,14338,Commune,2023,,11.899999999999999,S01,2026-08-17,Confirmé,
-I097,14409,Commune,2012,,10.100000000000001,S01,2026-08-17,Confirmé,
-I097,14409,Commune,2017,,14.499999999999998,S01,2026-08-17,Confirmé,
-I097,14409,Commune,2023,,9.6,S01,2026-08-17,Confirmé,
-I097,14494,Commune,2012,,5.8999999999999995,S01,2026-08-17,Confirmé,
-I097,14494,Commune,2017,,5.8999999999999995,S01,2026-08-17,Confirmé,
-I097,14494,Commune,2023,,11.3,S01,2026-08-17,Confirmé,
-I097,14499,Commune,2012,,5.800000000000001,S01,2026-08-17,Confirmé,
-I097,14499,Commune,2017,,7.8,S01,2026-08-17,Confirmé,
-I097,14499,Commune,2023,,5.6000000000000005,S01,2026-08-17,Confirmé,
-I097,14524,Commune,2012,,6.5,S01,2026-08-17,Confirmé,
-I097,14524,Commune,2017,,11.799999999999999,S01,2026-08-17,Confirmé,
-I097,14524,Commune,2023,,1.4000000000000001,S01,2026-08-17,Confirmé,
-I097,14530,Commune,2012,,6.2,S01,2026-08-17,Confirmé,
-I097,14530,Commune,2017,,10.9,S01,2026-08-17,Confirmé,
-I097,14530,Commune,2023,,7.3999999999999995,S01,2026-08-17,Confirmé,
-I097,14550,Commune,2012,,2.1999999999999997,S01,2026-08-17,Confirmé,
-I097,14550,Commune,2017,,8.9,S01,2026-08-17,Confirmé,
-I097,14550,Commune,2023,,11.600000000000001,S01,2026-08-17,Confirmé,
-I097,14598,Commune,2012,,11.0,S01,2026-08-17,Confirmé,
-I097,14598,Commune,2017,,7.3,S01,2026-08-17,Confirmé,
-I097,14598,Commune,2023,,4.9,S01,2026-08-17,Confirmé,
-I097,14606,Commune,2012,,11.0,S01,2026-08-17,Confirmé,
-I097,14606,Commune,2017,,8.3,S01,2026-08-17,Confirmé,
-I097,14606,Commune,2023,,4.9,S01,2026-08-17,Confirmé,
-I097,14657,Commune,2012,,7.3,S01,2026-08-17,Confirmé,
-I097,14657,Commune,2017,,7.000000000000001,S01,2026-08-17,Confirmé,
-I097,14657,Commune,2023,,3.9,S01,2026-08-17,Confirmé,
-I097,14660,Commune,2012,,19.0,S01,2026-08-17,Confirmé,
-I097,14660,Commune,2017,,5.0,S01,2026-08-17,Confirmé,
-I097,14660,Commune,2023,,8.9,S01,2026-08-17,Confirmé,
-I097,14665,Commune,2012,,11.4,S01,2026-08-17,Confirmé,
-I097,14665,Commune,2017,,11.600000000000001,S01,2026-08-17,Confirmé,
-I097,14665,Commune,2023,,9.5,S01,2026-08-17,Confirmé,
-I097,14698,Commune,2012,,8.0,S01,2026-08-17,Confirmé,
-I097,14698,Commune,2017,,9.6,S01,2026-08-17,Confirmé,
-I097,14698,Commune,2023,,6.800000000000001,S01,2026-08-17,Confirmé,
-I097,14724,Commune,2012,,5.8999999999999995,S01,2026-08-17,Confirmé,
-I097,14724,Commune,2017,,9.9,S01,2026-08-17,Confirmé,
-I097,14724,Commune,2023,,12.2,S01,2026-08-17,Confirmé,
-I097,14743,Commune,2012,,5.6000000000000005,S01,2026-08-17,Confirmé,
-I097,14743,Commune,2017,,6.1,S01,2026-08-17,Confirmé,
-I097,14743,Commune,2023,,13.5,S01,2026-08-17,Confirmé,
+I097,14009,Commune,2012,,0.085,S01,2026-08-17,Confirmé,
+I097,14009,Commune,2017,,0.085,S01,2026-08-17,Confirmé,
+I097,14009,Commune,2023,,0.069,S01,2026-08-17,Confirmé,
+I097,14012,Commune,2012,,0.058,S01,2026-08-17,Confirmé,
+I097,14012,Commune,2017,,0.082,S01,2026-08-17,Confirmé,
+I097,14012,Commune,2023,,0.082,S01,2026-08-17,Confirmé,
+I097,14024,Commune,2012,,0.083,S01,2026-08-17,Confirmé,
+I097,14024,Commune,2017,,0.109,S01,2026-08-17,Confirmé,
+I097,14024,Commune,2023,,0.091,S01,2026-08-17,Confirmé,
+I097,14045,Commune,2012,,0.088,S01,2026-08-17,Confirmé,
+I097,14045,Commune,2017,,0.062,S01,2026-08-17,Confirmé,
+I097,14045,Commune,2023,,0.063,S01,2026-08-17,Confirmé,
+I097,14046,Commune,2012,,0.09,S01,2026-08-17,Confirmé,
+I097,14046,Commune,2017,,0.078,S01,2026-08-17,Confirmé,
+I097,14046,Commune,2023,,0.052,S01,2026-08-17,Confirmé,
+I097,14070,Commune,2012,,0.139,S01,2026-08-17,Confirmé,
+I097,14070,Commune,2017,,0.08,S01,2026-08-17,Confirmé,
+I097,14070,Commune,2023,,0.133,S01,2026-08-17,Confirmé,
+I097,14106,Commune,2012,,0.09,S01,2026-08-17,Confirmé,
+I097,14106,Commune,2017,,0.08,S01,2026-08-17,Confirmé,
+I097,14106,Commune,2023,,0.052,S01,2026-08-17,Confirmé,
+I097,14110,Commune,2012,,0.057,S01,2026-08-17,Confirmé,
+I097,14110,Commune,2017,,0.159,S01,2026-08-17,Confirmé,
+I097,14110,Commune,2023,,0.116,S01,2026-08-17,Confirmé,
+I097,14117,Commune,2012,,0.189,S01,2026-08-17,Confirmé,
+I097,14117,Commune,2017,,0.199,S01,2026-08-17,Confirmé,
+I097,14117,Commune,2023,,0.14,S01,2026-08-17,Confirmé,
+I097,14198,Commune,2012,,0.021,S01,2026-08-17,Confirmé,
+I097,14198,Commune,2017,,0.1,S01,2026-08-17,Confirmé,
+I097,14198,Commune,2023,,0.063,S01,2026-08-17,Confirmé,
+I097,14203,Commune,2012,,0.076,S01,2026-08-17,Confirmé,
+I097,14203,Commune,2017,,0.078,S01,2026-08-17,Confirmé,
+I097,14203,Commune,2023,,0.049,S01,2026-08-17,Confirmé,
+I097,14225,Commune,2012,,0.191,S01,2026-08-17,Confirmé,
+I097,14225,Commune,2017,,0.164,S01,2026-08-17,Confirmé,
+I097,14225,Commune,2023,,0.152,S01,2026-08-17,Confirmé,
+I097,14227,Commune,2012,,0.029,S01,2026-08-17,Confirmé,
+I097,14227,Commune,2017,,0.067,S01,2026-08-17,Confirmé,
+I097,14227,Commune,2023,,0.048,S01,2026-08-17,Confirmé,
+I097,14229,Commune,2012,,0.105,S01,2026-08-17,Confirmé,
+I097,14229,Commune,2017,,0.097,S01,2026-08-17,Confirmé,
+I097,14229,Commune,2023,,0.084,S01,2026-08-17,Confirmé,
+I097,14231,Commune,2012,,0.088,S01,2026-08-17,Confirmé,
+I097,14231,Commune,2017,,0.086,S01,2026-08-17,Confirmé,
+I097,14231,Commune,2023,,0.051,S01,2026-08-17,Confirmé,
+I097,14246,Commune,2012,,0.116,S01,2026-08-17,Confirmé,
+I097,14246,Commune,2017,,0.074,S01,2026-08-17,Confirmé,
+I097,14246,Commune,2023,,0.048,S01,2026-08-17,Confirmé,
+I097,14305,Commune,2012,,0.087,S01,2026-08-17,Confirmé,
+I097,14305,Commune,2017,,0.093,S01,2026-08-17,Confirmé,
+I097,14305,Commune,2023,,0.124,S01,2026-08-17,Confirmé,
+I097,14306,Commune,2012,,0.083,S01,2026-08-17,Confirmé,
+I097,14306,Commune,2017,,0.066,S01,2026-08-17,Confirmé,
+I097,14306,Commune,2023,,0.083,S01,2026-08-17,Confirmé,
+I097,14308,Commune,2012,,0.06,S01,2026-08-17,Confirmé,
+I097,14308,Commune,2017,,0.085,S01,2026-08-17,Confirmé,
+I097,14308,Commune,2023,,0.057,S01,2026-08-17,Confirmé,
+I097,14316,Commune,2012,,0.069,S01,2026-08-17,Confirmé,
+I097,14316,Commune,2017,,0.043,S01,2026-08-17,Confirmé,
+I097,14316,Commune,2023,,0.062,S01,2026-08-17,Confirmé,
+I097,14328,Commune,2012,,0.088,S01,2026-08-17,Confirmé,
+I097,14328,Commune,2017,,0.082,S01,2026-08-17,Confirmé,
+I097,14328,Commune,2023,,0.078,S01,2026-08-17,Confirmé,
+I097,14329,Commune,2012,,0.195,S01,2026-08-17,Confirmé,
+I097,14329,Commune,2017,,0.169,S01,2026-08-17,Confirmé,
+I097,14329,Commune,2023,,0.063,S01,2026-08-17,Confirmé,
+I097,14335,Commune,2012,,0.065,S01,2026-08-17,Confirmé,
+I097,14335,Commune,2017,,0.065,S01,2026-08-17,Confirmé,
+I097,14335,Commune,2023,,0.05,S01,2026-08-17,Confirmé,
+I097,14338,Commune,2012,,0.155,S01,2026-08-17,Confirmé,
+I097,14338,Commune,2017,,0.166,S01,2026-08-17,Confirmé,
+I097,14338,Commune,2023,,0.119,S01,2026-08-17,Confirmé,
+I097,14409,Commune,2012,,0.101,S01,2026-08-17,Confirmé,
+I097,14409,Commune,2017,,0.145,S01,2026-08-17,Confirmé,
+I097,14409,Commune,2023,,0.096,S01,2026-08-17,Confirmé,
+I097,14494,Commune,2012,,0.059,S01,2026-08-17,Confirmé,
+I097,14494,Commune,2017,,0.059,S01,2026-08-17,Confirmé,
+I097,14494,Commune,2023,,0.113,S01,2026-08-17,Confirmé,
+I097,14499,Commune,2012,,0.058,S01,2026-08-17,Confirmé,
+I097,14499,Commune,2017,,0.078,S01,2026-08-17,Confirmé,
+I097,14499,Commune,2023,,0.056,S01,2026-08-17,Confirmé,
+I097,14524,Commune,2012,,0.065,S01,2026-08-17,Confirmé,
+I097,14524,Commune,2017,,0.118,S01,2026-08-17,Confirmé,
+I097,14524,Commune,2023,,0.014,S01,2026-08-17,Confirmé,
+I097,14530,Commune,2012,,0.062,S01,2026-08-17,Confirmé,
+I097,14530,Commune,2017,,0.109,S01,2026-08-17,Confirmé,
+I097,14530,Commune,2023,,0.074,S01,2026-08-17,Confirmé,
+I097,14550,Commune,2012,,0.022,S01,2026-08-17,Confirmé,
+I097,14550,Commune,2017,,0.089,S01,2026-08-17,Confirmé,
+I097,14550,Commune,2023,,0.116,S01,2026-08-17,Confirmé,
+I097,14598,Commune,2012,,0.11,S01,2026-08-17,Confirmé,
+I097,14598,Commune,2017,,0.073,S01,2026-08-17,Confirmé,
+I097,14598,Commune,2023,,0.049,S01,2026-08-17,Confirmé,
+I097,14606,Commune,2012,,0.11,S01,2026-08-17,Confirmé,
+I097,14606,Commune,2017,,0.083,S01,2026-08-17,Confirmé,
+I097,14606,Commune,2023,,0.049,S01,2026-08-17,Confirmé,
+I097,14657,Commune,2012,,0.073,S01,2026-08-17,Confirmé,
+I097,14657,Commune,2017,,0.07,S01,2026-08-17,Confirmé,
+I097,14657,Commune,2023,,0.039,S01,2026-08-17,Confirmé,
+I097,14660,Commune,2012,,0.19,S01,2026-08-17,Confirmé,
+I097,14660,Commune,2017,,0.05,S01,2026-08-17,Confirmé,
+I097,14660,Commune,2023,,0.089,S01,2026-08-17,Confirmé,
+I097,14665,Commune,2012,,0.114,S01,2026-08-17,Confirmé,
+I097,14665,Commune,2017,,0.116,S01,2026-08-17,Confirmé,
+I097,14665,Commune,2023,,0.095,S01,2026-08-17,Confirmé,
+I097,14698,Commune,2012,,0.08,S01,2026-08-17,Confirmé,
+I097,14698,Commune,2017,,0.096,S01,2026-08-17,Confirmé,
+I097,14698,Commune,2023,,0.068,S01,2026-08-17,Confirmé,
+I097,14724,Commune,2012,,0.059,S01,2026-08-17,Confirmé,
+I097,14724,Commune,2017,,0.099,S01,2026-08-17,Confirmé,
+I097,14724,Commune,2023,,0.122,S01,2026-08-17,Confirmé,
+I097,14743,Commune,2012,,0.056,S01,2026-08-17,Confirmé,
+I097,14743,Commune,2017,,0.061,S01,2026-08-17,Confirmé,
+I097,14743,Commune,2023,,0.135,S01,2026-08-17,Confirmé,
 I099,14009,Commune,2012,,0.16,S01,2026-08-17,Confirmé,
 I099,14009,Commune,2017,,0.149,S01,2026-08-17,Confirmé,
 I099,14009,Commune,2023,,0.181,S01,2026-08-17,Confirmé,
