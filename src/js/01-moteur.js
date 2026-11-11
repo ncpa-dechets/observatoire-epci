@@ -17,12 +17,12 @@ const AGG = {};
 AGG.I092 = {m:'ratio', num:'I091', den:'I378'};
 /* taux d'emploi = (actifs − chômeurs) ÷ population 15-64, vérifié contre les valeurs
    communales : écart maximal 0,012 point. La formule I380 ÷ I378 donnerait 1,5 point de trop. */
-AGG.I093 = {m:'calc', f:an=>rap(E('I091',an)-E('I379',an), E('I378',an), 100)};
+AGG.I093 = {m:'calc', f:an=>rap(diff(E('I091',an),E('I379',an)), E('I378',an), 100)};
 AGG.I097 = {m:'ratio', num:'I379', den:'I091'};
 AGG.I096 = {m:'ratio', num:'I095', den:'I380', f:100};
 AGG.I383 = {m:'ratio', num:'I382', den:'I381'};
 AGG.I099 = {m:'moyp', p:'I380'};
-AGG.I094 = {m:'moyp', p:'I378'};
+AGG.I094 = {m:'moyp', p:'I378', approx:true};
 AGG.I073 = {m:'moyp', p:'I001', approx:true};
 AGG.I074 = {m:'moyp', p:'I001', approx:true};
 AGG.I075 = {m:'moyp', p:'I001', approx:true};
@@ -37,19 +37,19 @@ const DERIVES = {
   D_TXRS  :{l:"Part de résidences secondaires", u:"%", t:"Calculé", f:(c,y)=>rap(g('I041',c,y), g('I039',c,y), 100)},
   D_TXVAC :{l:"Part de logements vacants", u:"%", t:"Calculé", f:(c,y)=>rap(g('I042',c,y), g('I039',c,y), 100)},
   D_LITSM :{l:"Lits marchands", u:"lits", t:"Calculé",
-            f:(c,y)=>som(g('I385',c,y)*2, g('I387',c,y)*3, g('I390',c,y))},
+            f:(c,y)=>som(mult(g('I385',c,y),2), mult(g('I387',c,y),3), g('I390',c,y))},
   D_LITSN :{l:"Lits non marchands (résidences secondaires)", u:"lits", t:"Calculé",
             f:(c,y)=>{const rs=g('I041',c,y); return rs==null?null:rs*5}},
   D_LITS  :{l:"Capacité d'accueil totale", u:"lits", t:"Calculé",
             f:(c,y)=>som(DERIVES.D_LITSM.f(c,y), DERIVES.D_LITSN.f(c,y))},
   D_PRESS :{l:"Indice de pression touristique", u:"lits/hab", t:"Calculé",
             f:(c,y)=>rap(DERIVES.D_LITS.f(c,y), g('I001',c,y), 1)},
-  D_POINTE:{l:"Population maximale hébergeable", u:"personnes", t:"Calculé",
+  D_POINTE:{l:"Population permanente + capacité théorique", u:"personnes", t:"Calculé",
             f:(c,y)=>som(g('I001',c,y), DERIVES.D_LITS.f(c,y))},
   D_TVAM  :{l:"Croissance annuelle moyenne depuis 2010", u:"%/an", t:"Calculé",
-            f:(c,y)=>{const a=g('I001',c,2010), b=g('I001',c,y);
-              return (a&&b&&y>2010)?(Math.pow(b/a,1/(y-2010))-1)*100:null}},
-  D_REAL  :{l:"Taux de passage à l'acte (commencés ÷ autorisés)", u:"%", t:"Calculé",
+            f:(c,y)=>{const a=raw('I001',c,2010), b=raw('I001',c,y);
+              return (a?.v>0&&b?.v>0&&b.an>2010)?(Math.pow(b.v/a.v,1/(b.an-2010))-1)*100:null}},
+  D_REAL  :{l:"Rapport annuel commencés / autorisés", u:"%", t:"Calculé",
             f:(c,y)=>rap(g('I054',c,y), g('I053',c,y), 100)},
   D_AUT1K :{l:"Logements autorisés pour 1 000 habitants", u:"log./1000 hab", t:"Calculé",
             f:(c,y)=>rap(g('I053',c,y), g('I001',c,y), 1000)},
@@ -72,8 +72,9 @@ Object.assign(DERIVES, {
 });
 
 function rap(a,b,f){return (a==null||b==null||b===0)?null:a/b*f}
-function som(){const a=[...arguments]; if(a.every(x=>x==null))return null;
-  return a.reduce((s,x)=>s+(x==null?0:x),0)}
+function mult(a,b){return a==null||b==null?null:a*b}
+function diff(a,b){return a==null||b==null?null:a-b}
+function som(...a){return a.some(x=>x==null)?null:a.reduce((s,x)=>s+x,0)}
 
 /* ==========================================================================
    Accès aux valeurs
@@ -83,14 +84,25 @@ const NOM = c=>DATA.communes[c]||c;
 let ANNEES = DATA.annees;
 const AN_MIN = Math.min(...ANNEES), AN_MAX = Math.max(...ANNEES);
 
-/* valeur brute d'une série, avec report de la dernière valeur connue */
+/* Seuls les stocks RP peuvent être reportés. Une observation manquante à un
+   millésime présent dans la série reste manquante (pas de comblement du secret). */
+const REPORTABLE = new Set(['I001','I002','I039','I040','I041','I042',
+  'I091','I092','I093','I094','I095','I096','I097','I099',
+  'I375','I376','I377','I378','I379','I380','I381','I382','I383']);
+const MILLESIMES = Object.fromEntries(Object.entries(DATA.series).map(([k,s])=>
+  [k,new Set(Object.values(s).flatMap(d=>Object.keys(d).map(Number)))]));
+let TRACE = null;
 function raw(key, com, an){
-  const s = DATA.series[key]; if(!s) return null;
-  const d = s[com]; if(!d) return null;
-  if(d[an]!=null) return {v:d[an], an:+an, report:false};
-  let best=null;
-  for(const y in d){ if(+y<=an && (best===null||+y>best)) best=+y }
-  return best===null?null:{v:d[best], an:best, report:true};
+  const d = DATA.series[key]?.[com];
+  let r = null;
+  if(d?.[an]!=null) r={v:d[an], an:+an, report:false};
+  else if(d && REPORTABLE.has(key.split('::')[0]) && !MILLESIMES[key].has(+an)){
+    const years=[...MILLESIMES[key]].filter(y=>y<=an);
+    const best=years.length?Math.max(...years):null;
+    if(best!=null && d[best]!=null) r={v:d[best], an:best, report:true};
+  }
+  if(TRACE) TRACE.push(r ? {...r, key} : {key, manque:true});
+  return r;
 }
 /* valeur normalisée (fractions converties en %) */
 function g(key, com, an){
@@ -99,13 +111,54 @@ function g(key, com, an){
   return FRACTION.has(key.split('::')[0]) ? r.v*100 : r.v;
 }
 function gInfo(key, com, an){
-  if(key.startsWith('D_')) return {v:DERIVES[key].f(com,an), an:an, report:false};
-  const r = raw(key, com, an); if(!r) return null;
-  return {v: FRACTION.has(key.split('::')[0])?r.v*100:r.v, an:r.an, report:r.report};
+  return mesureInfo(()=>g(key,com,an), key, an, false);
+}
+function mesureInfo(calcul, key, an, epci){
+  const precedent=TRACE;
+  TRACE=[];
+  let v, traces;
+  try{v=calcul(); traces=TRACE}finally{TRACE=precedent}
+  const annees=[...new Set(traces.filter(r=>!r.manque).map(r=>r.an))].sort((a,b)=>a-b);
+  const officiel=epci && DATA.epci?.[key]?.[an];
+  const estimation=['D_LITSM','D_LITSN','D_LITS','D_PRESS','D_POINTE','D_DENSLIT'].includes(key);
+  const sources=officiel?[officiel.source]:[...new Set(traces.map(r=>{
+    const code=DATA.indicateurs[r.key.split('::')[0]]?.src;
+    return DATA.sources[code]?.url || DATA.sources[code]?.s || '';
+  }).filter(Boolean))];
+  if(key==='D_SUP'||key.startsWith('D_DENS')) sources.push('IGN — superficie cadastrale');
+  return {v, an:annees.length?Math.max(...annees):null, annees, sources,
+    report:traces.some(r=>r.report), partiel:traces.some(r=>r.manque),
+    statut:v==null?'absent':officiel?'publié INSEE':epci&&estApprox(key,an)?'approximation':
+      estimation?'estimation':key.startsWith('D_')||epci?'calculé':'observé'};
+}
+function EInfo(key,an){return mesureInfo(()=>E(key,an),key,an,true)}
+function metaTexte(info){
+  if(!info || info.v==null) return 'Donnée absente';
+  return info.statut+(info.annees.length?' · '+info.annees.join(' / '):' · sans millésime')+
+    (info.report?' · report':'')+(info.partiel?' · couverture partielle':'');
+}
+function dernierRevenuEPCI(){
+  const annees=Object.keys(DATA.epci?.I073||{}).map(Number)
+    .filter(y=>DATA.epci?.I075?.[y]);
+  return annees.length?Math.max(...annees):null;
+}
+function medianeCommunes(key,an){
+  const v=vals(key,an).map(o=>o.v).sort((a,b)=>a-b), n=v.length;
+  return n?(v[Math.floor((n-1)/2)]+v[Math.floor(n/2)])/2:null;
 }
 
 /* agrégat EPCI */
 function E(key, an){
+  const officiel=DATA.epci?.[key]?.[an];
+  if(officiel){
+    if(TRACE) TRACE.push({key,an:+an,report:false});
+    return officiel.v;
+  }
+  // Filosofi 2 : ne jamais substituer une moyenne communale au chiffre EPCI publié.
+  if((key==='I073'||key==='I075') && an>=2023){
+    if(TRACE) TRACE.push({key,manque:true});
+    return null;
+  }
   if(key.startsWith('D_')){
     switch(key){
       case 'D_TXRS' : return rap(E('I041',an), E('I039',an), 100);
@@ -119,19 +172,30 @@ function E(key, an){
       case 'D_DENSL2': return rap(E('I039',an), SUP_EPCI, 1);
       case 'D_DENSLIT': return rap(E('D_LITS',an), SUP_EPCI, 1);
       case 'D_TVAM' : {const a=E('I001',2010), b=E('I001',an);
-                       return (a&&b&&an>2010)?(Math.pow(b/a,1/(an-2010))-1)*100:null}
-      default: {let s=null; COM.forEach(c=>{const v=DERIVES[key].f(c,an); if(v!=null)s=(s||0)+v}); return s}
+                       const fin=Math.max(...[...MILLESIMES.I001].filter(y=>y<=an));
+                       return (a&&b&&fin>2010)?(Math.pow(b/a,1/(fin-2010))-1)*100:null}
+      default: return som(...COM.map(c=>DERIVES[key].f(c,an)));
     }
   }
   const base = key.split('::')[0], r = AGG[base] || {m:'moyp', p:'I001', approx:true};
-  if(r.m==='somme'){ let s=null; COM.forEach(c=>{const v=g(key,c,an); if(v!=null)s=(s||0)+v}); return s }
+  if(r.m==='somme') return som(...COM.map(c=>g(key,c,an)));
   if(r.m==='ratio'){ return rap(E(r.num,an), E(r.den,an), r.f||100) }
   if(r.m==='calc'){ return r.f(an) }
   let sw=0, sv=0;
-  COM.forEach(c=>{const v=g(key,c,an), w=g(r.p,c,an); if(v!=null&&w!=null){sv+=v*w; sw+=w}});
+  const poids=key==='I056::commences'?'I054':r.p;
+  let incomplet=false;
+  COM.forEach(c=>{
+    const v=g(key,c,an), w=g(poids,c,an);
+    if(!r.approx && (w==null || (w>0 && v==null))) incomplet=true;
+    if(v!=null&&w!=null){sv+=v*w; sw+=w}
+  });
+  if(incomplet) return null;
   return sw?sv/sw:null;
 }
-function estApprox(key){const r=AGG[key.split('::')[0]]; return !!(r&&r.approx)}
+function estApprox(key,an){
+  if(DATA.epci?.[key]?.[an]) return false;
+  const r=AGG[key.split('::')[0]]; return !!(r&&r.approx);
+}
 
 /* liste des communes valuées pour une série/année */
 function vals(key, an){
@@ -333,8 +397,8 @@ function stackChart(host, xs, couches, opts){
   const H=(opts.h||280)+Math.max(0,(nLig-1))*14;
   const w=W-m.l-m.r, h=H-m.t-m.b;
   const s=svg(W,H); host.innerHTML=''; host.appendChild(s);
-  const tot = xs.map((_,i)=>couches.reduce((a,cch)=>a+(cch.v[i]||0),0));
-  const hi = Math.max(...tot, 1e-9);
+  const tot = xs.map((_,i)=>som(...couches.map(cch=>cch.v[i])));
+  const hi = Math.max(...tot.filter(v=>v!=null), 1e-9);
   const bw0 = Math.min(38, w/xs.length*0.68);
   const A = axes(s, m.l, m.t, w, h, 0, opts.pct?100:hi, xs.map(String),
                  Object.assign({}, opts, {inset: bw0/2+3}));
@@ -342,6 +406,10 @@ function stackChart(host, xs, couches, opts){
   const pad = bw/2 + 3;                       /* évite le débordement sur l'axe */
   xs.forEach((x,i)=>{
     const cx = m.l + pad + (xs.length===1?(w-2*pad)/2:i/(xs.length-1)*(w-2*pad));
+    if(tot[i]==null){
+      el(s,'text',{x:cx,y:m.t+h-6,'text-anchor':'middle','font-size':12,fill:C.ardoise},'—');
+      return;
+    }
     let acc = 0;
     couches.forEach((cch,k)=>{
       let v = cch.v[i]||0;

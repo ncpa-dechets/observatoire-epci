@@ -27,7 +27,7 @@ DIST = RACINE / "dist"
 MAPLIBRE = "maplibre-gl-5.6.0"
 
 
-def donnees_communales() -> dict:
+def donnees_communales() -> tuple[dict, dict]:
     """Reconstitue la structure attendue par le moteur JS à partir des CSV longs."""
     v = pd.read_csv(P / "valeurs_communes.csv", dtype={"code_geo": str, "scenario": str},
                     keep_default_na=False, na_values=[""])
@@ -47,7 +47,7 @@ def donnees_communales() -> dict:
                                      "s": r.sous_theme, "src": r.code_source}
                    for r in ind.itertuples() if r.id_indicateur in utilises}
     sources_utilisees = set(v["code_source"])
-    sources = {r.code_source: {"s": r.source, "p": r.producteur}
+    sources = {r.code_source: {"s": r.source, "p": r.producteur, "url": r.adresse}
                for r in src.itertuples() if r.code_source in sources_utilisees}
 
     return {
@@ -56,7 +56,31 @@ def donnees_communales() -> dict:
         "series": series,
         "sources": sources,
         "annees": sorted(int(a) for a in v["annee"].unique()),
+        "nb_valeurs": len(v),
+        "epci": revenus_epci(),
     }, {r.code_insee: r.superficie_km2 for r in com.itertuples() if pd.notna(r.superficie_km2)}
+
+
+def revenus_epci() -> dict:
+    """Valeurs publiées pour NCPA, sans reconstitution à partir des communes."""
+    fichier = P / "epci_insee.csv"
+    if not fichier.exists():
+        return {}
+    e = pd.read_csv(fichier, dtype={"code_geo": str})
+    correspondance = {"DS_FILOSOFI_CC.MED_SL": "I073", "DS_FILOSOFI_CC.PR_MD60": "I075"}
+    e = e[(e.code_geo == "200065563") & (e.niveau_geo == "EPCI")
+          & e.id_mesure.isin(correspondance)]
+    if e.duplicated(["id_mesure", "periode"]).any():
+        raise ValueError("Plusieurs valeurs INSEE pour un même revenu EPCI / millésime")
+    meta = json.loads((P / "epci_insee_meta.json").read_text(encoding="utf-8"))
+    resultat = {}
+    for r in e.itertuples():
+        if pd.notna(r.valeur):
+            resultat.setdefault(correspondance[r.id_mesure], {})[str(int(r.periode))] = {
+                "v": float(r.valeur), "source": meta["source"],
+                "extraction": meta["date_extraction"], "mesure": r.id_mesure,
+            }
+    return resultat
 
 
 def info_construction() -> dict:

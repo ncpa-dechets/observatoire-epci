@@ -21,54 +21,55 @@ const AN_REF = 2023;   // dernier millésime de recensement complet
 function pageSynthese(){
   const y = AN_REF;
   const pop = E('I001',y), rs = E('I041',y), log = E('I039',y);
-  const lm = E('D_LITSM',y), ln = E('D_LITSN',y), lt = lm+ln, pointe = pop+lt;
+  const lm = E('D_LITSM',y), ln = E('D_LITSN',y), lt = som(lm,ln), pointe = som(pop,lt);
 
   /* --- ruban signature --- */
-  const mx = pointe;
+  const mx = pointe || Math.max(pop||0,lt||0,1);
   const seg = (v,c,lab)=>`<div class="rub-seg" style="width:${v/mx*100}%;background:${c}" title="${lab}">${v/mx>0.13?lab:''}</div>`;
   document.getElementById('ruban').innerHTML = `
-    <div class="eyebrow">Le décalage fondateur</div>
+    <div class="eyebrow">Une capacité théorique, une fréquentation à mesurer</div>
     <h3 style="margin-top:5px">Population permanente et capacité d'accueil, ${y}</h3>
-    <p class="kicker">Une résidence secondaire est comptée pour 5 lits, une chambre d'hôtel pour 2, un emplacement de camping pour 3, conformément aux conventions INSEE de capacité théorique.</p>
+    <p class="kicker">Estimation : 5 lits par résidence secondaire, 2 par chambre d'hôtel et 3 par emplacement de camping. Ces conventions ne mesurent ni l'occupation effective, ni les visiteurs à la journée, ni la capacité des infrastructures.</p>
     <div class="rub-row">
       <div class="rub-lab"><b>Habitants permanents</b>recensement INSEE</div>
-      <div class="rub-bar"><div class="rub-fill" style="width:${pop/mx*100}%">${seg(pop,C.rouge,'')}</div></div>
-      <div class="rub-val">${NF.format(Math.round(pop))}<span>personnes</span></div>
+      <div class="rub-bar"><div class="rub-fill" style="width:100%">${seg(pop,C.rouge,'')}</div></div>
+      <div class="rub-val">${fmt(pop,0)}<span>personnes</span></div>
     </div>
     <div class="rub-row">
       <div class="rub-lab"><b>Lits d'accueil</b>marchands et diffus</div>
-      <div class="rub-bar"><div class="rub-fill" style="width:${lt/mx*100}%">
+      <div class="rub-bar"><div class="rub-fill" style="width:100%">
         ${seg(ln,C.vertF,'Résidences secondaires')}${seg(lm,C.maree,'Marchand')}</div></div>
-      <div class="rub-val">${NF.format(Math.round(lt))}<span>lits</span></div>
+      <div class="rub-val">${fmt(lt,0)}<span>lits</span></div>
     </div>
     <div class="rub-row">
-      <div class="rub-lab"><b>Occupation simultanée maximale</b>si tout est plein</div>
+      <div class="rub-lab"><b>Habitants + lits théoriques</b>scénario de pleine occupation</div>
       <div class="rub-bar"><div class="rub-fill" style="width:100%">
         ${seg(pop,C.rouge,'')}${seg(ln,C.vertF,'')}${seg(lm,C.maree,'')}</div></div>
-      <div class="rub-val">${NF.format(Math.round(pointe))}<span>personnes</span></div>
+      <div class="rub-val">${fmt(pointe,0)}<span>personnes</span></div>
     </div>
-    <div class="mult">× ${fmt(pointe/pop,1)} <small>la population permanente</small></div>
+    <div class="mult">× ${fmt(rap(pointe,pop,1),1)} <small>la population permanente</small></div>
     <div class="legend">
       <span><i style="background:${C.rouge}"></i>Habitants permanents</span>
-      <span><i style="background:${C.vertF}"></i>Lits en résidences secondaires (${NF.format(Math.round(ln))})</span>
-      <span><i style="background:${C.maree}"></i>Lits marchands (${NF.format(Math.round(lm))})</span>
+      <span><i style="background:${C.vertF}"></i>Lits en résidences secondaires (${fmt(ln,0)})</span>
+      <span><i style="background:${C.maree}"></i>Lits marchands (${fmt(lm,0)})</span>
     </div>`;
 
   /* --- KPI --- */
+  const revenuAn=dernierRevenuEPCI();
   document.getElementById('kpi-synth').innerHTML =
-    kpi('Population municipale', NF.format(Math.round(pop)),
+    kpi('Population municipale', fmt(pop,0),
         `${tendance(E('I001',2010), pop)} depuis 2010 · ${fmt(E('D_TVAM',y),2)} %/an`, {accent:1}) +
-    kpi('Logements', NF.format(Math.round(log)),
-        `${fmt(log/pop,2)} logement par habitant`) +
+    kpi('Logements', fmt(log,0),
+        `${fmt(rap(log,pop,1),2)} logement par habitant`) +
     kpi('Résidences secondaires', fmt(E('D_TXRS',y),1), 'du parc total', {unit:'%', accent:1}) +
-    kpi('Emplois au lieu de travail', NF.format(Math.round(E('I095',y))),
+    kpi('Emplois au lieu de travail', fmt(E('I095',y),0),
         `${fmt(E('I096',y),0)} emplois pour 100 actifs résidants`) +
     kpi('Lits par habitant', fmt(E('D_PRESS',y),2),
         'indice de pression touristique', {accent:1}) +
     kpi('Logements autorisés', fmt(E('I053',2024),0),
-        `en 2024 · ${fmt(E('D_REAL',2024),0)} % effectivement commencés`) +
-    kpi('Niveau de vie médian', NF.format(Math.round(E('I073',2021))),
-        'moyenne pondérée des communes, 2021 <b>≈</b>', {unit:'€/an'}) +
+        `en 2024 · rapport commencés/autorisés : ${fmt(E('D_REAL',2024),0)} %`) +
+    kpi('Niveau de vie médian EPCI', fmt(revenuAn==null?null:E('I073',revenuAn),0),
+        revenuAn==null?'Valeur INSEE indisponible':`INSEE Filosofi 2 · ${revenuAn} · par unité de consommation`, {unit:'€/an'}) +
     kpi('Taux de chômage', fmt(E('I097',y),1), 'au sens du recensement', {unit:'%'});
 
   /* --- population EPCI --- */
@@ -147,7 +148,7 @@ function pageDemo(){
   const pop23 = E('I001',2023), pop10 = E('I001',2010);
   const t = vals('D_TVAM',2023).sort((a,b)=>b.v-a.v);
   document.getElementById('kpi-demo').innerHTML =
-    kpi('Population 2023', NF.format(Math.round(pop23)), tendance(pop10,pop23)+' depuis 2010', {accent:1}) +
+    kpi('Population 2023', fmt(pop23,0), tendance(pop10,pop23)+' depuis 2010', {accent:1}) +
     kpi('Croissance annuelle', fmt(E('D_TVAM',2023),2), 'moyenne EPCI 2010–2023', {unit:'%/an'}) +
     kpi('Communes en croissance', t.filter(o=>o.v>0).length+' / 38', 'sur la période 2010–2023') +
     kpi('Écart entre communes', fmt(t[0].v,1)+' à '+fmt(t[t.length-1].v,1),
@@ -203,9 +204,9 @@ function smallMultiples(host, ans){
 function pageLogement(){
   const y=2023, anL=[2012,2017,2023];
   document.getElementById('kpi-log').innerHTML =
-    kpi('Logements', NF.format(Math.round(E('I039',y))), tendance(E('I039',2012),E('I039',y))+' depuis 2012') +
-    kpi('Résidences secondaires', fmt(E('D_TXRS',y),1), NF.format(Math.round(E('I041',y)))+' logements', {unit:'%', accent:1}) +
-    kpi('Logements vacants', fmt(E('D_TXVAC',y),1), NF.format(Math.round(E('I042',y)))+' logements', {unit:'%'}) +
+    kpi('Logements', fmt(E('I039',y),0), tendance(E('I039',2012),E('I039',y))+' depuis 2012') +
+    kpi('Résidences secondaires', fmt(E('D_TXRS',y),1), fmt(E('I041',y),0)+' logements', {unit:'%', accent:1}) +
+    kpi('Logements vacants', fmt(E('D_TXVAC',y),1), fmt(E('I042',y),0)+' logements', {unit:'%'}) +
     kpi('Communes à majorité secondaire', vals('D_TXRS',y).filter(o=>o.v>50).length+' / 38', 'plus de 50 % du parc', {accent:1});
 
   stackChart(document.getElementById('c-log-stack'), anL, [
@@ -242,8 +243,8 @@ function pageConstruction(){
   document.getElementById('kpi-constr').innerHTML =
     kpi('Logements autorisés', fmt(E('I053',der),0), 'en '+der+' · '+tendance(E('I053',2013),E('I053',der))+' vs 2013', {accent:1}) +
     kpi('Logements commencés', fmt(E('I054',der),0), 'en '+der) +
-    kpi('Passage à l\'acte', fmt(E('D_REAL',der),0), 'des logements autorisés sont commencés', {unit:'%', accent:1}) +
-    kpi('Cumul 2013–2024', NF.format(Math.round(range(2013,2024).reduce((a,y)=>a+(E('I053',y)||0),0))),
+    kpi('Rapport commencés / autorisés', fmt(E('D_REAL',der),0), 'flux de '+der+' · autorisations et chantiers de cohortes différentes', {unit:'%', accent:1}) +
+    kpi('Cumul 2013–2024', fmt(som(...range(2013,2024).map(y=>E('I053',y))),0),
         'logements autorisés sur 12 ans');
 
   lineChart(document.getElementById('c-cst-serie'), [
@@ -280,9 +281,9 @@ function pageConstruction(){
 function pageEmploi(){
   const y=2023, anL=[2012,2017,2023];
   document.getElementById('kpi-emp').innerHTML =
-    kpi("Emplois au lieu de travail", NF.format(Math.round(E('I095',y))),
+    kpi("Emplois au lieu de travail", fmt(E('I095',y),0),
         tendance(E('I095',2012),E('I095',y))+' depuis 2012', {accent:1}) +
-    kpi('Actifs occupés résidants', NF.format(Math.round(E('I380',y))), 'habitants qui travaillent') +
+    kpi('Actifs occupés résidants', fmt(E('I380',y),0), 'habitants qui travaillent') +
     kpi("Concentration d'emploi", fmt(E('I096',y),0), 'emplois pour 100 actifs résidants', {accent:1}) +
     kpi('Taux de chômage', fmt(E('I097',y),1), 'au sens du recensement, 2023', {unit:'%'});
 
@@ -321,14 +322,14 @@ function pageTourisme(){
 
   const lm=E('D_LITSM',y), ln=E('D_LITSN',y);
   document.getElementById('kpi-tour').innerHTML =
-    kpi("Capacité d'accueil", NF.format(Math.round(lm+ln)), 'lits, marchands et diffus confondus', {accent:1}) +
-    kpi('Lits marchands', NF.format(Math.round(lm)), fmt(lm/(lm+ln)*100,0)+' % de la capacité') +
+    kpi("Capacité d'accueil", fmt(som(lm,ln),0), 'estimation de lits, marchands et diffus confondus', {accent:1}) +
+    kpi('Lits marchands', fmt(lm,0), fmt(rap(lm,som(lm,ln),100),0)+' % de la capacité théorique') +
     kpi('Emplacements de camping', fmt(E('I387',y),0), fmt(E('I386',y),0)+' campings recensés') +
     kpi("Chambres d'hôtel", fmt(E('I385',y),0), fmt(E('I384',y),0)+' hôtels recensés');
 
   stackChart(document.getElementById('c-tour-stack'), ans, [
-    {n:'Camping (× 3)', v:ans.map(a=>E('I387',a)*3), c:C.vertF},
-    {n:'Hôtellerie (× 2)', v:ans.map(a=>E('I385',a)*2), c:C.rouge},
+    {n:'Camping (× 3)', v:ans.map(a=>mult(E('I387',a),3)), c:C.vertF},
+    {n:'Hôtellerie (× 2)', v:ans.map(a=>mult(E('I385',a),2)), c:C.rouge},
     {n:'Autres hébergements collectifs', v:ans.map(a=>E('I390',a)), c:C.maree}
   ], {u:'lits'});
 
@@ -372,25 +373,29 @@ function pageTourisme(){
    ========================================================================== */
 function pageRevenus(){
   const nMed = vals('I073',2021).length, nPauv = vals('I075',2021).length;
+  const an=dernierRevenuEPCI();
   document.getElementById('flag-rev').innerHTML =
-    `<b>Couverture partielle :</b> le niveau de vie médian est disponible pour ${nMed} communes en 2021,
-     mais le taux de pauvreté pour ${nPauv} seulement et le rapport interdécile pour ${vals('I074',2021).length}.
-     Le secret statistique de Filosofi retire ces indicateurs aux communes de moins de 50 ménages fiscaux.
-     Les agrégats EPCI marqués <b>≈</b> sont des moyennes pondérées par la population : ce sont des ordres de
-     grandeur, pas la vraie médiane intercommunale, qui exige les fichiers détail.`;
+    `<b>Deux séries distinctes :</b> les valeurs EPCI ${an??'récentes'} sont publiées directement par l'INSEE.
+     <b>Filosofi 2 (à partir de 2023) n'est pas directement comparable à Filosofi 2012–2021.</b>
+     Aucun taux d'évolution ne relie ces deux dispositifs.
+     <a href="https://www.insee.fr/fr/statistiques/8984752" target="_blank" rel="noopener">Méthode et rupture de série INSEE</a>.<br>
+     Les graphiques historiques ci-dessous s'arrêtent en 2021 : ${nMed} communes renseignées pour la médiane,
+     ${nPauv} pour la pauvreté. Les moyennes pondérées marquées <b>≈</b> ne sont pas les indicateurs officiels de l'EPCI.
+     Les données absentes ou couvertes par le secret statistique ne sont pas remplacées par des années antérieures.`;
 
   const med = vals('I073',2021).sort((a,b)=>b.v-a.v);
   document.getElementById('kpi-rev').innerHTML =
-    kpi('Niveau de vie médian', NF.format(Math.round(E('I073',2021))), 'moyenne pondérée 2021 ≈', {unit:'€/an', accent:1}) +
-    kpi('Amplitude entre communes', NF.format(Math.round(med[0].v-med[med.length-1].v)),
-        `${med[0].n} · ${med[med.length-1].n}`, {unit:'€/an'}) +
+    kpi('Niveau de vie médian EPCI', fmt(an==null?null:E('I073',an),0),
+        an==null?'Valeur INSEE indisponible':`INSEE Filosofi 2 · ${an} · par unité de consommation`, {unit:'€/an', accent:1}) +
+    kpi('Taux de pauvreté EPCI', fmt(an==null?null:E('I075',an),1),
+        an==null?'Valeur INSEE indisponible':`INSEE Filosofi 2 · ${an} · seuil de 60 %`, {unit:'%'}) +
     kpi('Part des retraites', fmt(E('I078::part_pensions_retraites_rentes',2021),1),
-        'du revenu disponible ≈', {unit:'%', accent:1}) +
-    kpi('Ménages imposés', fmt(E('I079',2021),1), 'des ménages fiscaux ≈', {unit:'%'});
+        'historique 2021 · communes documentées ≈', {unit:'%', accent:1}) +
+    kpi('Ménages imposés', fmt(E('I079',2021),1), 'historique 2021 · communes documentées ≈', {unit:'%'});
 
   const ans = range(2012,2021);
   lineChart(document.getElementById('c-rev-serie'), [
-    {n:'Moyenne pondérée EPCI', v:ans.map(a=>E('I073',a)), c:C.rouge},
+    {n:'Moyenne des médianes communales ≈', v:ans.map(a=>E('I073',a)), c:C.rouge},
     {n:'Commune la plus élevée', v:ans.map(a=>{const t=vals('I073',a); return t.length?Math.max(...t.map(o=>o.v)):null}), c:C.maree, dash:'4 3'},
     {n:'Commune la plus basse', v:ans.map(a=>{const t=vals('I073',a); return t.length?Math.min(...t.map(o=>o.v)):null}), c:C.ardoise, dash:'4 3'}
   ], {x:ans, zero:false, u:'€/an', d:0});

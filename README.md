@@ -7,6 +7,8 @@ que chaque chiffre puisse être retracé jusqu'à son origine.
 
 Le site est un **fichier HTML unique et autonome** : publié sur GitHub Pages, il peut aussi
 être téléchargé et ouvert hors connexion (seuls les fonds de carte demandent internet).
+Le seul livrable est **`dist/index.html`**, généré à la construction. Le fichier `index.html`
+à la racine est un point d'entrée local sans données, qui renvoie vers ce livrable.
 
 ---
 
@@ -58,6 +60,7 @@ pip install -r scripts/requirements.txt
 python scripts/build_data.py     # classeur → CSV
 python scripts/check_data.py     # contrôles
 python scripts/build_site.py     # → dist/index.html, à ouvrir dans le navigateur
+node --test tests/dashboard.test.cjs  # Node.js 22+ : régressions sur le fichier construit
 ```
 
 Pour la base EPCI (facultatif en local) :
@@ -66,6 +69,31 @@ Pour la base EPCI (facultatif en local) :
 python scripts/fetch_epci.py
 python scripts/fetch_insee.py    # ou --local chemin/vers/comparateur.parquet
 ```
+
+Sans cette base, les cartes de revenus EPCI récents affichent « indisponible » ; elles ne
+substituent pas une moyenne de médianes communales au chiffre publié par l'INSEE.
+
+## Conventions de restitution
+
+- **Absence ≠ zéro.** Une somme intercommunale exige les 38 valeurs. Les calculs de capacité
+  exigent toutes leurs composantes. Les approximations sur une couverture partielle sont signalées.
+- **Report limité aux stocks du recensement.** Le dernier millésime de la série peut être
+  utilisé entre deux observations, avec son année réelle. Une lacune communale à un millésime
+  connu n'est pas comblée. Construction, hébergement annuel et revenus ne sont pas reportés.
+- **Comparaison communale.** Le profil et les écarts de l'atlas prennent pour repère la
+  médiane des communes renseignées ; la ligne « Ensemble EPCI » reste un agrégat territorial.
+- **Construction.** Commencés / autorisés est un rapport de flux annuels, pas un taux de
+  réalisation d'une cohorte de permis. Les surfaces commencées sont pondérées par les commencés.
+- **Revenus.** La médiane et la pauvreté EPCI proviennent directement de la base INSEE,
+  au millésime exact. Filosofi 2 (2023+) est séparé de l'historique 2012–2021, sans raccord de série.
+- **Tourisme.** Les lits sont une capacité théorique, pas une mesure de fréquentation ou
+  du dimensionnement des infrastructures.
+- **Exports.** Le CSV de l'atlas est en format long (territoire × indicateur) et conserve
+  l'année sélectionnée, les millésimes sources, le statut, les reports et les liens sources.
+
+La publication exécute les contrôles de données et les tests JavaScript avant déploiement.
+Les tests de restitution utilisent un DOM simulé : ils ne remplacent pas une vérification
+visuelle dans un navigateur.
 
 ## Mettre à jour les données
 

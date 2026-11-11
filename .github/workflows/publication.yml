@@ -9,6 +9,8 @@ on:
       - "data/**"
       - "scripts/**"
       - "vendor/**"
+      - "tests/**"
+      - "index.html"
       - ".github/workflows/publication.yml"
   # Un commit fait par GitHub Actions ne déclenche pas d'autre workflow :
   # on enchaîne donc explicitement après la mise à jour des données.
@@ -53,6 +55,13 @@ jobs:
 
       - name: Assemblage du fichier HTML
         run: python scripts/build_site.py
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+
+      - name: Régressions des calculs et restitutions
+        run: node --test tests/dashboard.test.cjs
 
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3

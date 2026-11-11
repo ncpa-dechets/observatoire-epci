@@ -142,10 +142,10 @@ function basculeFond(){
 
 function dessineCarte(){
   if(!GEO || !CARTE_PRETE) return;
+  tipOff();
   const k = document.getElementById('map-ind').value, an = +document.getElementById('map-annee').value;
   document.getElementById('map-annee-v').textContent = an;
   const t = vals(k,an).map(o=>o.v).sort((a,b)=>a-b);
-  if(!t.length){ document.getElementById('map-legend').innerHTML='<span>Aucune donnée pour cette année.</span>'; return }
   const q = p => t[Math.min(t.length-1, Math.floor(p*(t.length-1)))];
   const seuils = [q(.2),q(.4),q(.6),q(.8)];
   const coul = v => v==null ? null : PALETTE_CARTE[seuils.filter(s=>v>s).length];
@@ -157,15 +157,22 @@ function dessineCarte(){
     const i = connue ? gInfo(k,c,an) : null;
     if(connue) trouve++;
     p._code = c || '';
-    p._fill = i ? coul(i.v) : null;
+    p._fill = i?.v!=null ? coul(i.v) : null;
     p._tip = connue
-      ? `<b>${NOM(c)}</b><br>${libDe(k)}<br><span style="font-size:15px;font-weight:600">${i?fmtU(i.v,uniteDe(k)):'—'}</span>${i&&i.report?`<br><i>millésime ${i.an}</i>`:''}`
+      ? `<b>${NOM(c)}</b><br>${libDe(k)}<br><span style="font-size:15px;font-weight:600">${i?fmtU(i.v,uniteDe(k)):'—'}</span><br>${metaTexte(i)}`
       : '<b>Commune non rattachée</b>';
   });
   LMAP.getSource('communes').setData(GEO);
 
+  if(!t.length){
+    document.getElementById('map-legend').innerHTML='<span>Aucune donnée pour cette année. Les communes sont affichées en couleur neutre.</span>';
+    tipOff();
+    return;
+  }
+
   document.getElementById('map-legend').innerHTML =
     PALETTE_CARTE.map((c,i)=>`<span><i style="background:${c}"></i>${
-      i===0?'< '+fmt(seuils[0]) : (i===4?'≥ '+fmt(seuils[3]) : fmt(seuils[i-1])+' à '+fmt(seuils[i]))}</span>`).join('') +
+      i===0?'≤ '+fmt(seuils[0]) : (i===4?'> '+fmt(seuils[3]) : '> '+fmt(seuils[i-1])+' à '+fmt(seuils[i]))}</span>`).join('') +
+    '<span><i style="background:#F2F0EB"></i>Donnée absente</span>' +
     `<span style="margin-left:auto;color:${trouve<38?C.rouge:C.ardoise}">${trouve} / 38 communes rattachées</span>`;
 }

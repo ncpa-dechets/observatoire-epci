@@ -26,6 +26,8 @@ function pageDonnees(){
   /* règles d'agrégation */
   const mode = k=>{
     const r=AGG[k];
+    if(k==='I073'||k==='I075') return ['Valeur EPCI INSEE si disponible au millésime ; sinon approximation communale historique','#2A6F7F'];
+    if(k==='I056') return ['Surface pondérée par les autorisés ou les commencés selon le scénario','#2A6F7F'];
     if(!r) return ['Moyenne pondérée par la population','#8A6100'];
     if(r.m==='somme') return ['Somme des communes','#3F6B4E'];
     if(r.m==='ratio') return [`Recalculé : ${r.num} ÷ ${r.den}`, '#2A6F7F'];
@@ -38,7 +40,7 @@ function pageDonnees(){
     '<table style="font-size:13px">'+Object.entries(grp).map(([t,o])=>
       `<tr><td class="txt" style="width:44%;color:${o.c};font-weight:600">${t}</td>
        <td class="txt" style="white-space:normal;color:var(--ardoise)">${o.l.length} indicateur${o.l.length>1?'s':''} — ${o.l.slice(0,7).join(', ')}${o.l.length>7?'…':''}</td></tr>`).join('')+'</table>'+
-    '<p class="note">Un taux n\'est jamais la moyenne arithmétique des taux communaux. Chaque fois que le numérateur et le dénominateur existent dans le classeur, le taux EPCI est reconstitué à partir des effectifs. Les cases marquées <b>≈</b> ailleurs dans le tableau de bord signalent une approximation assumée.</p>';
+    '<p class="note">Les taux sont reconstitués à partir des effectifs quand ils existent. Les sommes exigent une valeur pour chaque commune. Les moyennes approximatives peuvent porter sur une couverture partielle, signalée dans l’atlas et le CSV. Le profil comparé utilise la médiane des communes, pas un agrégat EPCI. Les cases <b>≈</b> signalent une approximation.</p>';
 
   document.getElementById('tbl-derives').innerHTML =
     '<table style="font-size:13px">'+Object.entries(DERIVES).map(([k,d])=>
@@ -56,8 +58,9 @@ function pageDonnees(){
     '<table style="font-size:13px"><thead><tr><th class="txt">Code</th><th class="txt">Source</th><th class="txt">Producteur</th><th>Valeurs</th></tr></thead><tbody>'+
     Object.entries(DATA.sources).map(([c,o])=>{
       const n=Object.keys(DATA.series).filter(k=>(DATA.indicateurs[k.split('::')[0]]||{}).src===c).length;
-      return `<tr><td class="txt">${c}</td><td class="txt">${o.s}</td><td class="txt">${o.p}</td><td>${n} séries</td></tr>`;
-    }).join('')+'</tbody></table>';
+      return `<tr><td class="txt">${c}</td><td class="txt"><a href="${o.url}" target="_blank" rel="noopener">${o.s}</a></td><td class="txt">${o.p}</td><td>${n} séries</td></tr>`;
+    }).join('')+'</tbody></table>'+
+    '<p class="note">Revenus EPCI : <a href="https://www.insee.fr/fr/statistiques/2521169" target="_blank" rel="noopener">comparateur de territoires INSEE</a>. Les valeurs publiées et leur provenance sont conservées dans les exports.</p>';
 }
 
 const FORMULES = {
@@ -68,7 +71,7 @@ const FORMULES = {
   D_PRESS:'capacité totale ÷ population municipale',
   D_POINTE:'population municipale + capacité totale',
   D_TVAM:'(P(n) ÷ P(2010))^(1/(n−2010)) − 1',
-  D_REAL:'I054 ÷ I053 × 100', D_AUT1K:'I053 ÷ I001 × 1 000', D_DENSL:'I039 ÷ I001',
+  D_REAL:'I054 ÷ I053 × 100 — rapport de flux annuels, pas un suivi de cohorte de permis', D_AUT1K:'I053 ÷ I001 × 1 000', D_DENSL:'I039 ÷ I001',
   D_SUP:'superficie cadastrale du fond communal IGN, convertie des hectares en km²',
   D_DENSP:'I001 ÷ superficie', D_DENSL2:'I039 ÷ superficie', D_DENSLIT:'capacité totale ÷ superficie'
 };
@@ -86,11 +89,13 @@ const VIGILANCE = [
   {g:0, t:'Deux mesures divergentes des actifs occupés',
    d:'I380 (actifs occupés résidants) et I091 − I379 (population active moins chômeurs) devraient donner le même effectif. L\'écart atteint 273 personnes à l\'échelle de l\'EPCI en 2023, soit 2,2 %, et 48 personnes sur une seule commune. Les deux viennent de tableaux INSEE différents. Le taux d\'emploi EPCI est reconstitué avec I091 − I379, qui reproduit les valeurs communales à 0,012 point près.'},
   {g:0, t:'Colonne fiabilité non discriminante',
-   d:'Les 14 403 lignes portent la valeur « Confirmé ». La colonne existe mais ne porte aucune information : elle ne pourra pas servir de filtre tant qu\'elle n\'est pas différenciée.'},
+   d:'La fiabilité des valeurs communales est uniformément déclarée « Confirmé » dans la source. Les mentions observé, calculé, estimation et report décrivent le traitement effectué ; elles ne constituent pas une validation indépendante des données.'},
   {g:1, t:'Superficies récupérées dans le fond communal',
    d:'Le GeoJSON IGN porte la propriété superficie_cadastrale, ce qui débloque les densités : 276,4 km² pour l\'EPCI. Attention, il s\'agit de la surface cadastrée, qui exclut l\'estran et certains plans d\'eau : elle diffère légèrement de la surface INSEE. À recopier dans une colonne de l\'onglet Communes pour que le classeur soit autonome.'},
   {g:0, t:'Millésimes non alignés entre thématiques',
-   d:'Recensement tous les cinq ans, Sitadel et tourisme annuels, Filosofi arrêté en 2021. Le tableau de bord reporte la dernière valeur connue et signale l\'année réelle au survol. Une comparaison entre deux thématiques à une même date reste à interpréter avec précaution.'},
+   d:'Seuls les stocks du recensement peuvent être reportés entre millésimes ; une absence à un millésime renseigné ailleurs dans la série reste absente. Les flux annuels et les revenus ne sont jamais reportés. Les indicateurs dérivés conservent les années de leurs composantes, visibles dans l’atlas, le comparateur, la carte et les exports.'},
+  {g:0, t:'Rupture Filosofi 2 en 2023',
+   d:'Les revenus EPCI publiés à partir de 2023 ne sont pas directement comparables à Filosofi 2012–2021. Ils sont présentés séparément des graphiques historiques ; aucune évolution entre les deux dispositifs n’est calculée.'},
   {g:0, t:'Ratio de conversion des lits à valider',
    d:'5 lits par résidence secondaire, 2 par chambre d\'hôtel, 3 par emplacement de camping : ce sont les conventions usuelles, pas des mesures locales. Vos données internes — tonnages de déchets, taxe de séjour, consommation d\'eau — permettraient de les caler sur le territoire réel.'}
 ];

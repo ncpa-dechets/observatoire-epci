@@ -50,4 +50,5 @@ function initSliders(){
   document.getElementById('duel-annee').oninput = pageDuel;
 }
 initSliders();
+document.getElementById('data-counts').innerHTML = `${COM.length} communes · ${AN_MIN}–${AN_MAX}<br>${Object.keys(DATA.indicateurs).length} indicateurs communaux renseignés · ${NF.format(DATA.nb_valeurs)} valeurs`;
 ouvre('synthese');

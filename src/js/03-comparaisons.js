@@ -37,7 +37,7 @@ function pageAtlas(){
   });
 
   const maxi={}; cols.forEach(k=>maxi[k]=Math.max(...lignes.map(l=>l.v[k]||0), 1e-9));
-  const epci={}; cols.forEach(k=>epci[k]=E(k,an));
+  const epci={}, references={}; cols.forEach(k=>{epci[k]=E(k,an);references[k]=medianeCommunes(k,an)});
 
   const th = document.querySelector('#atlas thead');
   th.innerHTML = '<tr><th class="txt' + (atlasTri.k==='n'?' sorted'+(atlasTri.asc?' asc':''):'') +
@@ -45,7 +45,7 @@ function pageAtlas(){
     `<th data-k="${k}" class="${atlasTri.k===k?'sorted'+(atlasTri.asc?' asc':''):''}"
       title="${libDe(k)}${uniteDe(k)?' ('+uniteDe(k)+')':''}">${nomCourt(k)}</th>`).join('') +
     '</tr><tr style="background:var(--sable)"><th class="txt" style="top:29px">Ensemble EPCI</th>' +
-    cols.map(k=>`<th style="top:29px;color:var(--rouge)">${epci[k]==null?'—':fmt(epci[k])}${estApprox(k)?' ≈':''}</th>`).join('') + '</tr>';
+    cols.map(k=>`<th style="top:29px;color:var(--rouge)">${epci[k]==null?'—':fmt(epci[k])}${epci[k]!=null&&estApprox(k,an)?' ≈':''}<small class="data-meta">${metaTexte(EInfo(k,an))}</small></th>`).join('') + '</tr>';
   th.querySelectorAll('th[data-k]').forEach(h=>h.onclick=()=>{
     const k=h.dataset.k;
     atlasTri = {k, asc: atlasTri.k===k ? !atlasTri.asc : (k==='n')};
@@ -57,26 +57,34 @@ function pageAtlas(){
       const v=l.v[k], mt=l.meta[k];
       if(v==null) return '<td class="muted">—</td>';
       const lg = Math.max(0, Math.min(1, v/maxi[k]))*100;
-      const ecart = epci[k] ? (v-epci[k])/Math.abs(epci[k])*100 : null;
-      return `<td class="bar-cell" title="${libDe(k)} — ${fmtU(v,uniteDe(k))}${mt&&mt.report?' (millésime '+mt.an+', reporté)':''}${ecart!=null?'\nÉcart EPCI : '+(ecart>0?'+':'')+fmt(ecart,0)+' %':''}">
-        <i style="width:${lg}%"></i><span>${fmt(v)}${mt&&mt.report?'<sup style="color:#B0B7B6">·</sup>':''}</span></td>`;
+      const ref=references[k];
+      const ecart = ref ? (v-ref)/Math.abs(ref)*100 : null;
+      return `<td class="bar-cell" title="${libDe(k)} — ${fmtU(v,uniteDe(k))}${ecart!=null?'\nÉcart à la médiane des communes : '+(ecart>0?'+':'')+fmt(ecart,0)+' %':''}">
+        <i style="width:${lg}%"></i><span>${fmt(v)}<small class="data-meta">${metaTexte(mt)}</small></span></td>`;
     }).join('') + '</tr>').join('');
 }
 
+function csvAtlas(an,cols){
+  const rows=[['code_geo','territoire','annee_selectionnee','indicateur','libelle','valeur',
+    'unite','millesimes_sources','statut','report','couverture_partielle','sources']];
+  [...COM,'200065563'].forEach(c=>cols.forEach(k=>{
+    const info=c==='200065563'?EInfo(k,an):gInfo(k,c,an);
+    rows.push([c,c==='200065563'?'ENSEMBLE EPCI':NOM(c),an,k,libDe(k),
+      info.v==null?'':String(info.v).replace('.',','),uniteDe(k),info.annees.join('|'),
+      info.statut,info.report?'oui':'non',info.partiel?'oui':'non',info.sources.join(' | ')]);
+  }));
+  return rows.map(row=>row.map(v=>'"'+String(v).replace(/"/g,'""')+'"').join(';')).join('\n')+'\n';
+}
 function exportCSV(){
   const an = +document.getElementById('atlas-annee').value;
   const cols = atlasVue==='socle' ? SOCLE : TOUTES();
-  const sep=';';
-  let out = ['code_insee','commune',...cols.map(k=>libDe(k)+(uniteDe(k)?' ('+uniteDe(k)+')':''))].join(sep)+'\n';
-  COM.forEach(c=>{
-    out += [c, NOM(c), ...cols.map(k=>{const v=g(k,c,an); return v==null?'':String(v).replace('.',',')})].join(sep)+'\n';
-  });
-  out += ['200065563','ENSEMBLE EPCI', ...cols.map(k=>{const v=E(k,an); return v==null?'':String(v).replace('.',',')})].join(sep)+'\n';
+  const out=csvAtlas(an,cols);
   const b = new Blob(['\ufeff'+out], {type:'text/csv;charset=utf-8'});
   const a = document.createElement('a');
   a.href = URL.createObjectURL(b);
   a.download = `observatoire_NCPA_${atlasVue}_${an}.csv`;
   a.click();
+  setTimeout(()=>URL.revokeObjectURL(a.href),1000);
 }
 
 /* ==========================================================================
@@ -93,10 +101,10 @@ function pageDuel(){
     return `<div class="card" style="margin:0"><h3>${nomCourt(k)} <span class="sub">${uniteDe(k)}</span></h3>
       <div style="display:flex;justify-content:space-between;align-items:flex-end;margin-top:10px">
         <div><div style="font-size:11px;color:var(--ardoise);text-transform:uppercase;letter-spacing:.08em">${NOM(A)}</div>
-             <div style="font-size:25px;font-weight:600;color:${C.rouge}">${fmt(a)}</div></div>
-        <div style="font-size:12px;color:var(--ardoise);padding-bottom:5px">EPCI ${fmt(E(k,an))}</div>
+             <div style="font-size:25px;font-weight:600;color:${C.rouge}">${fmt(a)}</div><small class="data-meta">${metaTexte(gInfo(k,A,an))}</small></div>
+        <div style="font-size:12px;color:var(--ardoise);padding:0 8px 5px">Médiane des communes<br>${fmt(medianeCommunes(k,an))}</div>
         <div style="text-align:right"><div style="font-size:11px;color:var(--ardoise);text-transform:uppercase;letter-spacing:.08em">${NOM(B)}</div>
-             <div style="font-size:25px;font-weight:600;color:${C.maree}">${fmt(b)}</div></div>
+             <div style="font-size:25px;font-weight:600;color:${C.maree}">${fmt(b)}</div><small class="data-meta">${metaTexte(gInfo(k,B,an))}</small></div>
       </div></div>`;
   }).join('');
 
@@ -111,14 +119,14 @@ function pageDuel(){
     const lo=Math.min(...t.map(o=>o.v)), hi=Math.max(...t.map(o=>o.v)), rg=(hi-lo)||1;
     el(s,'text',{x:m.l-10, y:y+4,'text-anchor':'end','font-size':11.5}, nomCourt(k));
     el(s,'line',{x1:m.l, x2:m.l+w, y1:y, y2:y, stroke:C.trait,'stroke-width':6,'stroke-linecap':'round'});
-    const ep=E(k,an);
+    const ep=medianeCommunes(k,an);
     if(ep!=null) el(s,'line',{x1:m.l+(ep-lo)/rg*w, x2:m.l+(ep-lo)/rg*w, y1:y-9, y2:y+9, stroke:C.ardoise,'stroke-width':1.4,'stroke-dasharray':'3 2'});
     [[A,C.rouge],[B,C.maree]].forEach(([cc,col])=>{
       const v=g(k,cc,an); if(v==null) return;
       const x=m.l+(v-lo)/rg*w;
       const p=el(s,'circle',{cx:x, cy:y, r:6.5, fill:col, stroke:'#fff','stroke-width':2});
       p.style.cursor='crosshair';
-      bindTip(p, `<b>${NOM(cc)}</b><br>${libDe(k)}<br>${fmtU(v,uniteDe(k))}`);
+      bindTip(p, `<b>${NOM(cc)}</b><br>${libDe(k)}<br>${fmtU(v,uniteDe(k))}<br>${metaTexte(gInfo(k,cc,an))}`);
     });
     el(s,'text',{x:m.l+w+8, y:y+4,'font-size':10.5,fill:C.ardoise}, fmt(hi));
   });
